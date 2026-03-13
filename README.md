@@ -51,13 +51,45 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## CRM & Sales
 
-*Coming soon*
+### Twenty
+- **Repo:** [twentyhq/twenty](https://github.com/twentyhq/twenty)
+- **Stars:** 40.4K ⭐
+- **Stack:** TypeScript, NestJS, React, PostgreSQL, Redis, BullMQ, Nx
+- **License:** Other (Custom open-source license)
+- **What it does:** Modern open-source alternative to Salesforce and HubSpot with full control over customer data and workflows.
+- **Key features:**
+  - Customizable objects and fields
+  - Personalize layouts with filters, sort, group by, kanban and table views  
+  - Custom roles and permissions management
+  - Workflow automation with triggers and actions
+  - Emails, calendar events, and file management
+  - GraphQL API and extensible architecture
+  - Modern UX inspired by Notion, Airtable, Linear
+- **Self-host:** Docker, Kubernetes, or from source with PostgreSQL + Redis
+- **Why it's useful:** Perfect Salesforce/HubSpot replacement for agencies needing full data control, customization, and modern UX without vendor lock-in.
+- **Added:** 2026-03-14
 
 ---
 
 ## Project Management
 
-*Coming soon*
+### Plane
+- **Repo:** [makeplane/plane](https://github.com/makeplane/plane)
+- **Stars:** 46.5K ⭐
+- **Stack:** TypeScript, Next.js, Django, PostgreSQL, Redis
+- **License:** AGPLv3
+- **What it does:** Modern open-source alternative to Jira, Linear, Monday, and ClickUp for issue tracking, sprints, and product roadmaps.
+- **Key features:**
+  - Issues and task management with rich text editor
+  - Sprint cycles and roadmap planning
+  - Multiple project views (List, Board, Calendar, Gantt)
+  - Custom workflows and automation
+  - Team collaboration and mentions
+  - Time tracking and estimates
+  - File attachments and integrations
+- **Self-host:** Docker, Kubernetes, or cloud deployment options
+- **Why it's useful:** Replace expensive project management SaaS for agency work. Great Jira alternative with modern UX for managing client projects, sprints, and roadmaps.
+- **Added:** 2026-03-14
 
 ---
 
@@ -69,7 +101,23 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## Analytics & Monitoring
 
-*Coming soon*
+### Umami
+- **Repo:** [umami-software/umami](https://github.com/umami-software/umami)
+- **Stars:** 35.6K ⭐
+- **Stack:** TypeScript, Next.js, PostgreSQL, Clickhouse
+- **License:** MIT
+- **What it does:** Privacy-focused web analytics platform that's a simple, fast alternative to Google Analytics without cookies.
+- **Key features:**
+  - GDPR, CCPA, and PECR compliant (no cookies)
+  - Real-time website analytics and insights
+  - Custom events and goal tracking
+  - Multiple website management
+  - Lightweight tracking script (< 2KB)
+  - Beautiful, intuitive dashboard
+  - Team sharing and permissions
+- **Self-host:** Docker, Docker Compose, or from source with PostgreSQL/MySQL
+- **Why it's useful:** Replace Google Analytics for client websites while maintaining privacy compliance and faster page loads. Perfect for agencies managing multiple sites.
+- **Added:** 2026-03-14
 
 ---
 
