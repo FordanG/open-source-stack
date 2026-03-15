@@ -135,7 +135,23 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## AI & Machine Learning
 
-*Coming soon*
+### Dify
+- **Repo:** [langgenius/dify](https://github.com/langgenius/dify)
+- **Stars:** 132.9K ⭐
+- **Stack:** TypeScript, Python, Next.js, Flask, PostgreSQL, Redis, Celery
+- **License:** Custom open-source (Apache-style with additional terms)
+- **What it does:** Production-ready platform for building, deploying, and managing AI applications and agentic workflows with visual canvas.
+- **Key features:**
+  - Visual workflow builder for AI agent chains
+  - Support for 200+ LLM providers (OpenAI, Anthropic, local models)
+  - RAG knowledge base with document processing
+  - Agent creation with tools and memory
+  - API endpoints for AI app integration
+  - Model management and prompt engineering
+  - Analytics and observability dashboard
+- **Self-host:** Docker Compose, Kubernetes, or cloud deployment with PostgreSQL + Redis
+- **Why it's useful:** Build AI-powered features for client projects without vendor lock-in. Perfect for creating custom ChatGPT-like apps, knowledge bases, and automated workflows.
+- **Added:** 2026-03-16
 
 ---
 
@@ -153,13 +169,45 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## Forms & Surveys
 
-*Coming soon*
+### Formbricks
+- **Repo:** [formbricks/formbricks](https://github.com/formbricks/formbricks)
+- **Stars:** 12.0K ⭐
+- **Stack:** TypeScript, Next.js, React, Prisma, PostgreSQL, Tailwind CSS
+- **License:** Custom open-source (AGPL-style)
+- **What it does:** Open source Qualtrics alternative for in-app, website, link and email surveys with privacy-first experience management.
+- **Key features:**
+  - In-app surveys triggered by user actions
+  - Website overlay surveys and popups
+  - Email and link surveys with beautiful templates
+  - Real-time response analytics and insights
+  - GDPR compliant data collection
+  - Custom branding and white-label options
+  - Webhook integrations and API access
+- **Self-host:** Docker, Kubernetes, or from source with PostgreSQL
+- **Why it's useful:** Perfect Typeform/Qualtrics replacement for client feedback collection, NPS surveys, and user research. Essential for gathering insights without expensive monthly fees.
+- **Added:** 2026-03-16
 
 ---
 
 ## Email & Marketing
 
-*Coming soon*
+### Listmonk
+- **Repo:** [knadh/listmonk](https://github.com/knadh/listmonk)
+- **Stars:** 19.3K ⭐
+- **Stack:** Go, PostgreSQL, Vue.js
+- **License:** AGPL-3.0
+- **What it does:** High-performance, self-hosted newsletter and mailing list manager packed into a single binary application.
+- **Key features:**
+  - Manage millions of subscribers with custom attributes
+  - Beautiful responsive email templates
+  - Campaign scheduling and automation
+  - A/B testing and analytics
+  - Bounce and complaint handling
+  - Multi-list management with segmentation
+  - REST API and webhook support
+- **Self-host:** Single binary + PostgreSQL, Docker, or Docker Compose
+- **Why it's useful:** Perfect Mailchimp/ConvertKit replacement for client newsletters and email marketing. No monthly fees, full data control, and handles large subscriber lists efficiently.
+- **Added:** 2026-03-16
 
 ---
 
