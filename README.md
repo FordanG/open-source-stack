@@ -123,7 +123,41 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## Content & CMS
 
-*Coming soon*
+### Payload
+- **Repo:** [payloadcms/payload](https://github.com/payloadcms/payload)
+- **Stars:** 41.2K ⭐
+- **Stack:** TypeScript, Next.js, React, MongoDB, PostgreSQL, Express
+- **License:** MIT
+- **What it does:** Open-source, fullstack Next.js framework giving instant backend superpowers with TypeScript admin panel and headless CMS.
+- **Key features:**
+  - Next.js native CMS that installs in existing /app folder
+  - 100% TypeScript backend and admin panel
+  - Works as both app framework & headless CMS
+  - Deploy anywhere including serverless on Vercel for free
+  - Query database in React Server Components
+  - Fully extensible admin and backend
+  - No vendor lock-in, self-hosted control
+- **Self-host:** Docker, Vercel, Railway, or from source with MongoDB/PostgreSQL
+- **Why it's useful:** Perfect modern CMS for client projects. Combines frontend and backend in same codebase, eliminating the need for separate WordPress installations or expensive SaaS CMSs.
+- **Added:** 2026-03-16
+
+### Directus
+- **Repo:** [directus/directus](https://github.com/directus/directus)
+- **Stars:** 34.5K ⭐
+- **Stack:** TypeScript, Vue.js, Node.js, SQL databases
+- **License:** GPL
+- **What it does:** Flexible backend that turns any SQL database into a headless CMS, admin panels, or apps with custom UI and instant APIs.
+- **Key features:**
+  - Works with existing SQL databases (no migration required)
+  - Supports PostgreSQL, MySQL, SQLite, Oracle, MariaDB, MS-SQL
+  - Real-time REST & GraphQL APIs
+  - Modern Vue.js dashboard for non-technical users
+  - Completely white-label and extensible
+  - Role-based permissions and authentication
+  - File storage and digital asset management
+- **Self-host:** Docker, Docker Compose, or from source with any SQL database
+- **Why it's useful:** Ideal for agencies working with existing client databases. Can retrofit any legacy database with modern API and admin interface without data migration.
+- **Added:** 2026-03-16
 
 ---
 
@@ -225,7 +259,23 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## Automation & Workflows
 
-*Coming soon*
+### n8n
+- **Repo:** [n8n-io/n8n](https://github.com/n8n-io/n8n)
+- **Stars:** 179.4K ⭐
+- **Stack:** TypeScript, Node.js, Vue.js, SQLite, PostgreSQL
+- **License:** Fair-code (sustainable open source)
+- **What it does:** Workflow automation platform combining no-code visual interface with full coding capabilities - open source alternative to Zapier, Make, and Microsoft Power Automate.
+- **Key features:**
+  - 400+ pre-built integrations (Google, Slack, GitHub, AWS, etc.)
+  - Visual workflow builder with drag-and-drop interface
+  - Write custom JavaScript/Python code when needed
+  - Native AI capabilities with LangChain integration
+  - Self-hosted with full data control
+  - Advanced scheduling and conditional logic
+  - Webhook support and REST API access
+- **Self-host:** Docker, npm install, or Kubernetes with SQLite/PostgreSQL
+- **Why it's useful:** Essential for agency automation - client onboarding, social media posting, data sync between tools, invoice generation. Eliminates expensive Zapier subscriptions while providing more flexibility.
+- **Added:** 2026-03-16
 
 ---
 
