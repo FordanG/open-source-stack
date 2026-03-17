@@ -95,7 +95,23 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## Communication
 
-*Coming soon*
+### Fluxer
+- **Repo:** [fluxerapp/fluxer](https://github.com/fluxerapp/fluxer)
+- **Stars:** 6.7K ⭐
+- **Stack:** TypeScript, React, Node.js, Electron
+- **License:** AGPL-3.0
+- **What it does:** Free and open source instant messaging and VoIP platform built for friends, groups, and communities - alternative to Discord and Slack.
+- **Key features:**
+  - Real-time messaging and voice/video calls
+  - Server and channel organization
+  - Custom themes and plugins
+  - Cross-platform desktop and mobile apps
+  - File sharing and screen sharing
+  - Bot support and API access
+  - Self-hosted with full data control
+- **Self-host:** Docker Compose or from source with Node.js backend
+- **Why it's useful:** Perfect Discord/Slack replacement for agencies and teams wanting data sovereignty, custom branding, and no monthly fees. Ideal for client communication hubs.
+- **Added:** 2026-03-18
 
 ---
 
@@ -247,7 +263,23 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## Finance & Invoicing
 
-*Coming soon*
+### Invoicerr
+- **Repo:** [invoicerr-app/invoicerr](https://github.com/invoicerr-app/invoicerr)
+- **Stars:** 656 ⭐
+- **Stack:** TypeScript, React, NestJS, Prisma, PostgreSQL
+- **License:** AGPL-3.0
+- **What it does:** Freelance-focused invoicing app that lets you create quotes, generate invoices, track payments, and collect secure signatures.
+- **Key features:**
+  - Professional quote and invoice creation
+  - Digital signature collection
+  - Payment tracking and reminders
+  - PDF generation and email delivery
+  - Client management and contact database
+  - Tax calculation and reporting
+  - Multi-currency support
+- **Self-host:** Docker Compose with PostgreSQL database
+- **Why it's useful:** Perfect FreshBooks/QuickBooks alternative for freelance agencies. Eliminate monthly subscription costs while maintaining professional invoicing workflows for client billing.
+- **Added:** 2026-03-18
 
 ---
 
@@ -287,7 +319,23 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## Developer Tools
 
-*Coming soon*
+### GitNexus
+- **Repo:** [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus)
+- **Stars:** 16.6K ⭐
+- **Stack:** TypeScript, Next.js, React, D3.js, Web Workers
+- **License:** Other (Open Source)
+- **What it does:** Zero-server code intelligence engine that runs entirely in your browser - drop in a GitHub repo or ZIP file and get an interactive knowledge graph with built-in Graph RAG Agent.
+- **Key features:**
+  - Client-side knowledge graph generation (no server needed)
+  - Interactive code visualization and exploration
+  - Built-in Graph RAG Agent for code Q&A
+  - Works with GitHub repos or ZIP files
+  - Real-time dependency analysis and relationships
+  - AI-powered code understanding and navigation
+  - Zero data sharing - everything runs locally
+- **Self-host:** Deploy static Next.js app to any hosting provider
+- **Why it's useful:** Essential for code reviews, onboarding new developers, and understanding large codebases. Perfect for agencies working on complex client projects - no server setup required.
+- **Added:** 2026-03-18
 
 ---
 
