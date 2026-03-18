@@ -135,6 +135,25 @@ Curated list of open source software for future app builds, self-hosting, and pe
 - **Why it's useful:** Replace Google Analytics for client websites while maintaining privacy compliance and faster page loads. Perfect for agencies managing multiple sites.
 - **Added:** 2026-03-14
 
+### Web-Check
+- **Repo:** [Lissy93/web-check](https://github.com/Lissy93/web-check)
+- **Stars:** 32.3K ⭐
+- **Stack:** TypeScript, Vue.js, Node.js, Docker
+- **License:** MIT
+- **What it does:** All-in-one OSINT tool for analysing any website - comprehensive security, performance, and infrastructure analysis.
+- **Key features:**
+  - SSL/TLS certificate analysis and validation
+  - DNS records lookup and propagation testing
+  - Port scanning and service detection
+  - Technology stack identification
+  - SEO and accessibility auditing
+  - Performance metrics and load time analysis
+  - Domain reputation and threat intelligence
+  - Whois lookup and domain registration info
+- **Self-host:** Docker, Docker Compose, or deploy to Vercel/Netlify
+- **Why it's useful:** Essential for website audits, security assessments, and competitive analysis. Perfect for agencies doing technical due diligence and client website evaluations.
+- **Added:** 2026-03-19
+
 ---
 
 ## Content & CMS
@@ -179,7 +198,24 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## E-Commerce
 
-*Coming soon*
+### Medusa
+- **Repo:** [medusajs/medusa](https://github.com/medusajs/medusa)
+- **Stars:** 32.4K ⭐
+- **Stack:** TypeScript, Node.js, React, PostgreSQL, Redis
+- **License:** MIT
+- **What it does:** Open-source, composable commerce platform with built-in framework for customization - modern alternative to Shopify Plus and Magento.
+- **Key features:**
+  - Modular architecture with plugins and customizable modules
+  - Multi-channel selling (web, mobile, social commerce, marketplaces)
+  - Advanced order management and inventory tracking
+  - Flexible pricing rules and promotions engine
+  - Multi-currency and multi-region support
+  - Built-in admin dashboard and customer portal
+  - Extensive API for headless commerce setups
+  - Integration with payment providers and shipping services
+- **Self-host:** Docker, Railway, or deploy to any Node.js hosting provider
+- **Why it's useful:** Perfect for building custom e-commerce solutions without the constraints of SaaS platforms. Ideal for agencies creating unique shopping experiences with full control over functionality and data.
+- **Added:** 2026-03-19
 
 ---
 
@@ -207,7 +243,24 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## DevOps & Infrastructure
 
-*Coming soon*
+### OpenCTI
+- **Repo:** [OpenCTI-Platform/opencti](https://github.com/OpenCTI-Platform/opencti)
+- **Stars:** 9.0K ⭐
+- **Stack:** TypeScript, React, Python, GraphQL, ElasticSearch, Redis
+- **License:** Other (Apache 2.0 style)
+- **What it does:** Open cyber threat intelligence platform for managing and analyzing security threats, vulnerabilities, and indicators of compromise.
+- **Key features:**
+  - STIX 2.1 compliant threat intelligence modeling
+  - Real-time data ingestion from multiple threat feeds
+  - Interactive knowledge graph visualization
+  - Collaborative threat analysis and reporting
+  - Automated threat hunting and detection rules
+  - Integration with SIEM and security tools via APIs
+  - Multi-tenancy and role-based access control
+  - Import/export capabilities for threat data sharing
+- **Self-host:** Docker Compose with ElasticSearch, Redis, and MinIO
+- **Why it's useful:** Essential for agencies handling cybersecurity consulting or managing security infrastructure. Provides enterprise-grade threat intelligence capabilities without expensive commercial tools.
+- **Added:** 2026-03-19
 
 ---
 
