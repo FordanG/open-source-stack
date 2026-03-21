@@ -95,6 +95,25 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## Communication
 
+### Chatwoot
+- **Repo:** [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
+- **Stars:** 27.9K ⭐
+- **Stack:** Ruby on Rails, Vue.js, PostgreSQL, Redis, ActionCable
+- **License:** Other (Custom open-source license)
+- **What it does:** Open-source omnichannel customer support platform - comprehensive alternative to Intercom, Zendesk, and Salesforce Service Cloud.
+- **Key features:**
+  - Live chat widget for websites with real-time messaging
+  - Multi-channel support (WhatsApp, Facebook, Twitter, Instagram, Email, SMS)
+  - Team collaboration with internal notes and mentions
+  - Automated workflows and chatbot integration
+  - Detailed analytics and reporting dashboard
+  - Mobile apps for iOS and Android
+  - Custom attributes and conversation labeling
+  - API access and webhook integrations
+- **Self-host:** Docker, Docker Compose, or Kubernetes with PostgreSQL + Redis
+- **Why it's useful:** Essential for agencies providing customer support services to clients. Eliminates expensive monthly fees for Intercom/Zendesk while offering enterprise-grade omnichannel support capabilities.
+- **Added:** 2026-03-22
+
 ### Fluxer
 - **Repo:** [fluxerapp/fluxer](https://github.com/fluxerapp/fluxer)
 - **Stars:** 6.7K ⭐
@@ -134,6 +153,24 @@ Curated list of open source software for future app builds, self-hosting, and pe
 - **Self-host:** Docker, Docker Compose, or from source with PostgreSQL/MySQL
 - **Why it's useful:** Replace Google Analytics for client websites while maintaining privacy compliance and faster page loads. Perfect for agencies managing multiple sites.
 - **Added:** 2026-03-14
+
+### OpenObserve
+- **Repo:** [openobserve/openobserve](https://github.com/openobserve/openobserve)
+- **Stars:** 18.3K ⭐
+- **Stack:** TypeScript, Rust, Vue.js, Docker
+- **License:** AGPL-3.0
+- **What it does:** Open-source observability platform for logs, metrics, traces, and frontend monitoring - cost-effective Datadog/Splunk alternative with 140x lower storage costs.
+- **Key features:**
+  - Unified logs, metrics, traces, and frontend monitoring
+  - Advanced search and query capabilities (SQL + PromQL)
+  - Real-time alerting with anomaly detection
+  - Stream processing for logs-to-metrics conversion
+  - Single binary deployment with no external dependencies
+  - Built-in dashboards and visualization
+  - Cost-effective storage with compression
+- **Self-host:** Single Docker container or Kubernetes deployment
+- **Why it's useful:** Perfect Datadog/New Relic replacement for agencies monitoring client applications. Massive cost savings on observability while maintaining enterprise features and performance.
+- **Added:** 2026-03-21
 
 ### Web-Check
 - **Repo:** [Lissy93/web-check](https://github.com/Lissy93/web-check)
@@ -243,6 +280,25 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## DevOps & Infrastructure
 
+### Dokploy
+- **Repo:** [Dokploy/dokploy](https://github.com/Dokploy/dokploy)
+- **Stars:** 31.8K ⭐
+- **Stack:** TypeScript, Next.js, Node.js, Docker, PostgreSQL
+- **License:** Other (Custom open-source license)
+- **What it does:** Open-source deployment platform providing simple PaaS functionality - self-hosted alternative to Vercel, Netlify, and Heroku.
+- **Key features:**
+  - Git-based deployments with automatic builds
+  - Multi-server deployment and management
+  - Built-in database support (PostgreSQL, MySQL, MariaDB, MongoDB)
+  - Docker Compose and Dockerfile support
+  - SSL certificate automation (Let's Encrypt)
+  - Real-time deployment monitoring and logs
+  - Environment variable management
+  - Backup and restore functionality
+- **Self-host:** Single Docker container or full installation on VPS with Docker
+- **Why it's useful:** Perfect for agencies wanting Heroku-like simplicity without vendor lock-in or monthly costs. Ideal for deploying client applications with full control over infrastructure and zero platform fees.
+- **Added:** 2026-03-22
+
 ### OpenCTI
 - **Repo:** [OpenCTI-Platform/opencti](https://github.com/OpenCTI-Platform/opencti)
 - **Stars:** 9.0K ⭐
@@ -266,7 +322,23 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## Auth & Identity
 
-*Coming soon*
+### ZITADEL
+- **Repo:** [zitadel/zitadel](https://github.com/zitadel/zitadel)
+- **Stars:** 13.3K ⭐
+- **Stack:** Go, TypeScript, Angular, PostgreSQL, gRPC, REST APIs
+- **License:** AGPL-3.0 (with Apache 2.0/MIT exceptions)
+- **What it does:** Open-source identity and access management platform built for teams needing enterprise-grade authentication with multi-tenancy.
+- **Key features:**
+  - SSO, MFA, Passkeys (FIDO2), OIDC, SAML, SCIM support
+  - Native multi-tenancy with infrastructure-level isolation
+  - Comprehensive audit trail with event-driven architecture
+  - API-first design with gRPC, connectRPC, and REST
+  - Zero-downtime updates and horizontal scalability
+  - Custom branding and B2B organization management
+  - Actions/webhooks for token enrichment and workflows
+- **Self-host:** Docker, Kubernetes, or Docker Compose with PostgreSQL
+- **Why it's useful:** Perfect Auth0/Okta replacement for agencies building B2B SaaS. Handles complex multi-tenant authentication, SSO, and identity brokering without vendor lock-in.
+- **Added:** 2026-03-20
 
 ---
 
@@ -315,6 +387,24 @@ Curated list of open source software for future app builds, self-hosting, and pe
 ---
 
 ## Finance & Invoicing
+
+### IDURAR
+- **Repo:** [idurar/idurar-erp-crm](https://github.com/idurar/idurar-erp-crm)
+- **Stars:** 8.3K ⭐
+- **Stack:** JavaScript, React, Node.js, MongoDB, Express, Ant Design
+- **License:** AGPL-3.0
+- **What it does:** Comprehensive open-source ERP/CRM system with accounting, invoicing, inventory, and HR management - complete business management solution.
+- **Key features:**
+  - Integrated CRM with lead and customer management
+  - Professional invoicing and quotation system
+  - Inventory and warehouse management
+  - Accounting and financial reporting
+  - HR management with employee records
+  - Project management and time tracking
+  - Multi-currency and tax support
+- **Self-host:** Docker, MERN stack deployment with MongoDB
+- **Why it's useful:** All-in-one business management for agencies - replaces multiple SaaS tools with single integrated platform. Perfect for growing businesses needing ERP capabilities without enterprise pricing.
+- **Added:** 2026-03-21
 
 ### Invoicerr
 - **Repo:** [invoicerr-app/invoicerr](https://github.com/invoicerr-app/invoicerr)
@@ -366,7 +456,23 @@ Curated list of open source software for future app builds, self-hosting, and pe
 
 ## Database & Storage
 
-*Coming soon*
+### Databasus
+- **Repo:** [databasus/databasus](https://github.com/databasus/databasus)
+- **Stars:** 6.1K ⭐
+- **Stack:** Go, TypeScript, React, H2, Docker, Kubernetes
+- **License:** Apache 2.0
+- **What it does:** Free, open-source database backup tool with focus on PostgreSQL, MySQL, MongoDB with smart scheduling and multiple storage options.
+- **Key features:**
+  - Support for PostgreSQL, MySQL, MariaDB, MongoDB
+  - Flexible scheduling (hourly, daily, weekly, monthly, cron)
+  - Multiple storage backends (S3, Google Drive, FTP, local, Rclone)
+  - Smart retention policies (time-based, count-based, GFS)
+  - AES-256-GCM encryption with zero-trust storage
+  - Real-time notifications (Email, Telegram, Slack, Discord)
+  - Multi-workspace organization with role-based permissions
+- **Self-host:** Docker, Docker Compose, or Kubernetes deployment
+- **Why it's useful:** Essential for agencies managing client databases. Automated backups with enterprise features, encryption, and notifications - eliminates manual backup processes and reduces data loss risk.
+- **Added:** 2026-03-20
 
 ---
 
@@ -390,11 +496,64 @@ Curated list of open source software for future app builds, self-hosting, and pe
 - **Why it's useful:** Essential for code reviews, onboarding new developers, and understanding large codebases. Perfect for agencies working on complex client projects - no server setup required.
 - **Added:** 2026-03-18
 
+### Yaade
+- **Repo:** [EsperoTech/yaade](https://github.com/EsperoTech/yaade)
+- **Stars:** 2.0K ⭐
+- **Stack:** TypeScript, React, Kotlin, H2 Database, Vite
+- **License:** MIT
+- **What it does:** Open-source, self-hosted, collaborative API development environment - secure Postman alternative with team sharing and authentication.
+- **Key features:**
+  - Multi-user support with authentication and permissions
+  - REST and WebSocket testing with Markdown documentation
+  - JavaScript scripting for pre/post request automation
+  - Import/export from Postman and OpenAPI collections
+  - Browser extension for CORS proxy functionality
+  - Single-file data import/export for easy backups
+  - Dark mode and responsive design
+- **Self-host:** Docker container with H2 database, no external dependencies
+- **Why it's useful:** Perfect Postman replacement for agencies wanting data control and team collaboration. Eliminates monthly subscription costs while providing secure API development environment for client projects.
+- **Added:** 2026-03-20
+
 ---
 
 ## Productivity
 
-*Coming soon*
+### AFFiNE
+- **Repo:** [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
+- **Stars:** 66.4K ⭐
+- **Stack:** TypeScript, React, Rust, CRDT, Electron
+- **License:** Other (Custom open-source license)
+- **What it does:** Next-generation knowledge base that combines docs, whiteboards, and databases in one unified workspace - privacy-first alternative to Notion and Miro.
+- **Key features:**
+  - Block-based document editor with real-time collaboration
+  - Infinite canvas whiteboard for visual planning and brainstorming
+  - Database views with tables, kanban boards, and galleries
+  - Local-first architecture with offline functionality
+  - End-to-end encryption and privacy protection
+  - Cross-platform apps (Windows, Mac, Linux, Web, Mobile)
+  - Plugin system for extensibility and customization
+  - Import from Notion, Markdown, and other formats
+- **Self-host:** Docker, Kubernetes, or desktop apps with local storage
+- **Why it's useful:** Perfect Notion/Miro replacement for agencies wanting data sovereignty and offline capability. Combines documentation, project planning, and visual collaboration without subscription costs or data privacy concerns.
+- **Added:** 2026-03-22
+
+### Super Productivity
+- **Repo:** [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity)
+- **Stars:** 18.1K ⭐
+- **Stack:** TypeScript, Angular, Electron, Node.js
+- **License:** MIT
+- **What it does:** Advanced todo list app with integrated timeboxing, time tracking, and deep work focus - comprehensive productivity suite for individuals and teams.
+- **Key features:**
+  - Task management with projects, sub-tasks, and tags
+  - Built-in Pomodoro timer and time tracking
+  - Calendar integration and timeboxing
+  - Jira, GitHub, GitLab, and Trello integrations
+  - Anti-procrastination features and break reminders
+  - Offline-first with sync via Dropbox/WebDAV
+  - Completely privacy-focused (no data collection)
+- **Self-host:** Desktop apps (Windows, Mac, Linux), web version, or Docker
+- **Why it's useful:** Perfect all-in-one productivity solution for agencies and developers. Eliminates need for multiple task management, time tracking, and focus apps. Great for client work tracking and billable hours.
+- **Added:** 2026-03-21
 
 ---
 
