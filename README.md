@@ -1,29 +1,46 @@
-# Open Source Stack
+# 🧰 Open Source Stack
 
-Curated list of open source software for future app builds, self-hosting, and personal usage.
+A curated list of **production-ready open source software** for building, self-hosting, and replacing expensive SaaS.
+
+Every project here is:
+- Actively maintained (commits in the last 6 months)
+- 1K+ GitHub stars (community-vetted)
+- Self-hostable (you own your data)
+- Practically useful (solves real business problems)
 
 **Updated daily** via automated discovery.
 
-## Categories
+---
 
-- [Scheduling & Booking](#scheduling--booking)
-- [CRM & Sales](#crm--sales)
-- [Project Management](#project-management)
-- [Communication](#communication)
-- [Analytics & Monitoring](#analytics--monitoring)
-- [Content & CMS](#content--cms)
-- [E-Commerce](#e-commerce)
-- [AI & Machine Learning](#ai--machine-learning)
-- [DevOps & Infrastructure](#devops--infrastructure)
-- [Auth & Identity](#auth--identity)
-- [Forms & Surveys](#forms--surveys)
-- [Email & Marketing](#email--marketing)
-- [Finance & Invoicing](#finance--invoicing)
-- [Design & Media](#design--media)
-- [Automation & Workflows](#automation--workflows)
-- [Database & Storage](#database--storage)
-- [Developer Tools](#developer-tools)
-- [Productivity](#productivity)
+## How to Use This List
+
+**Building a new app?** Check if an open source alternative exists before building from scratch.
+**Paying for SaaS?** Find a self-hosted replacement and cut your monthly costs.
+**Learning?** Each project links to its repo with full documentation.
+
+---
+
+## Table of Contents
+
+| Category | Projects |
+|----------|----------|
+| [Scheduling & Booking](#scheduling--booking) | Cal.com |
+| [CRM & Sales](#crm--sales) | Twenty |
+| [Project Management](#project-management) | Plane |
+| [Communication](#communication) | Chatwoot, Fluxer |
+| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check |
+| [Content & CMS](#content--cms) | Payload, Directus |
+| [E-Commerce](#e-commerce) | Medusa |
+| [AI & Machine Learning](#ai--machine-learning) | Dify |
+| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, OpenCTI |
+| [Auth & Identity](#auth--identity) | ZITADEL |
+| [Forms & Surveys](#forms--surveys) | Formbricks |
+| [Email & Marketing](#email--marketing) | Listmonk |
+| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr |
+| [Automation & Workflows](#automation--workflows) | n8n |
+| [Database & Storage](#database--storage) | Databasus |
+| [Developer Tools](#developer-tools) | GitNexus, Yaade |
+| [Productivity](#productivity) | AFFiNE, Super Productivity |
 
 ---
 
@@ -565,3 +582,41 @@ This list is maintained by HachiPoppo via daily automated discovery. Projects ar
 - **Self-hostable:** Preference for tools we can run ourselves
 - **Practical value:** Must solve a real problem for Vendrato or personal use
 - **Stack compatibility:** Preference for TypeScript/Node.js/Python ecosystem
+
+---
+
+## Contributing
+
+Found a great open source project? Open a PR or issue with:
+
+1. **Project name** and GitHub link
+2. **Stars count** and license
+3. **One-line description** of what it does
+4. **Why it's useful** — what SaaS does it replace?
+
+### Criteria
+
+- 1K+ GitHub stars
+- Active development (commits within last 6 months)
+- Self-hostable
+- Clear documentation
+- Solves a real problem
+
+### What We Don't Include
+
+- Abandoned projects (no commits in 6+ months)
+- Libraries/frameworks (this is for end-user applications)
+- Projects without self-hosting option
+- Crypto/blockchain projects (unless they solve a non-crypto problem)
+
+---
+
+## License
+
+This list is [MIT licensed](LICENSE). The listed projects have their own licenses — check each repo.
+
+---
+
+**Maintained by [Vendrato](https://vendrato.com)** — We use these tools to build digital systems for businesses.
+
+If you find this useful, give it a ⭐
