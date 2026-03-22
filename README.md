@@ -36,10 +36,10 @@ Every project here is:
 | [Auth & Identity](#auth--identity) | ZITADEL |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk |
-| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr |
+| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker |
 | [Automation & Workflows](#automation--workflows) | n8n |
 | [Database & Storage](#database--storage) | Databasus |
-| [Developer Tools](#developer-tools) | GitNexus, Yaade |
+| [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork |
 | [Productivity](#productivity) | AFFiNE, Super Productivity |
 
 ---
@@ -441,6 +441,24 @@ Every project here is:
 - **Why it's useful:** Perfect FreshBooks/QuickBooks alternative for freelance agencies. Eliminate monthly subscription costs while maintaining professional invoicing workflows for client billing.
 - **Added:** 2026-03-18
 
+### TaxHacker
+- **Repo:** [vas3k/TaxHacker](https://github.com/vas3k/TaxHacker)
+- **Stars:** 2.2K ⭐
+- **Stack:** TypeScript, Next.js, Tailwind CSS, OpenAI/Gemini/Mistral APIs
+- **License:** MIT
+- **What it does:** Self-hosted AI-powered accounting app that automatically extracts data from receipts, invoices, and PDFs for expense and income tracking.
+- **Key features:**
+  - AI-powered OCR and data extraction from any document format
+  - Multi-language and multi-currency support with automatic conversion
+  - Custom AI prompts for extracting specific business data
+  - Automatic categorization and item splitting
+  - Project-based organization with filtering and reporting
+  - Excel/CSV import/export for accountants and tax software
+  - Support for multiple AI providers (OpenAI, Google, Mistral)
+- **Self-host:** Docker Compose or Node.js with local file storage
+- **Why it's useful:** Perfect for agencies and freelancers who need automated expense tracking without paying for Receipt Bank or similar SaaS. Eliminates manual data entry while maintaining full control over financial data.
+- **Added:** 2026-03-23
+
 ---
 
 ## Design & Media
@@ -530,6 +548,42 @@ Every project here is:
 - **Self-host:** Docker container with H2 database, no external dependencies
 - **Why it's useful:** Perfect Postman replacement for agencies wanting data control and team collaboration. Eliminates monthly subscription costs while providing secure API development environment for client projects.
 - **Added:** 2026-03-20
+
+### Refine
+- **Repo:** [refinedev/refine](https://github.com/refinedev/refine)
+- **Stars:** 34.3K ⭐
+- **Stack:** TypeScript, React, Next.js, Various UI libraries (Ant Design, Material UI, Mantine, Chakra UI)
+- **License:** MIT
+- **What it does:** React meta-framework for building CRUD-heavy applications like admin panels, dashboards, and B2B internal tools with headless architecture.
+- **Key features:**
+  - Built-in authentication, access control, and routing
+  - Works with any backend (REST, GraphQL, custom APIs)
+  - Supports multiple UI frameworks and custom designs
+  - Real-time capabilities and i18n internationalization
+  - Advanced data provider system with caching
+  - Code generation and CLI scaffolding
+  - Extensible plugin architecture
+- **Self-host:** Deploy anywhere React runs - Vercel, Netlify, Docker, or traditional hosting
+- **Why it's useful:** Perfect for agencies building custom admin dashboards and internal tools for clients. Eliminates months of boilerplate development while maintaining full customization control. Great alternative to low-code platforms with developer flexibility.
+- **Added:** 2026-03-23
+
+### OpenWork
+- **Repo:** [different-ai/openwork](https://github.com/different-ai/openwork)
+- **Stars:** 12.2K ⭐
+- **Stack:** TypeScript, React, Node.js, Electron, OpenCode
+- **License:** Other (Open source with custom terms)
+- **What it does:** Open-source AI coworker platform and desktop app - self-hosted alternative to Claude Cowork for teams building agentic workflows.
+- **Key features:**
+  - Local-first desktop app with instant message processing
+  - Agent orchestration with custom skills and MCPs
+  - Multi-platform connectors (WhatsApp, Slack, Telegram)
+  - Composable architecture - use CLI, desktop, or server mode
+  - Shareable workspace instances for team collaboration
+  - Built on OpenCode for extensibility and ejectable workflows
+  - Support for multiple AI providers and models
+- **Self-host:** Desktop app, Docker containers, or npm global install for CLI orchestrator
+- **Why it's useful:** Essential for agencies building AI-powered workflows and automation. Provides enterprise-grade AI collaboration without vendor lock-in or monthly fees. Perfect for productizing agentic processes and sharing AI capabilities across teams.
+- **Added:** 2026-03-23
 
 ---
 
