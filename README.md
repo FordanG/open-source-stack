@@ -28,7 +28,7 @@ Every project here is:
 | [CRM & Sales](#crm--sales) | Twenty |
 | [Project Management](#project-management) | Plane |
 | [Communication](#communication) | Chatwoot, Fluxer |
-| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check |
+| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify |
@@ -36,11 +36,12 @@ Every project here is:
 | [Auth & Identity](#auth--identity) | ZITADEL |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk |
-| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker |
+| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext |
 | [Automation & Workflows](#automation--workflows) | n8n |
 | [Database & Storage](#database--storage) | Databasus |
-| [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork |
+| [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs |
 | [Productivity](#productivity) | AFFiNE, Super Productivity |
+| [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 
 ---
 
@@ -207,6 +208,25 @@ Every project here is:
 - **Self-host:** Docker, Docker Compose, or deploy to Vercel/Netlify
 - **Why it's useful:** Essential for website audits, security assessments, and competitive analysis. Perfect for agencies doing technical due diligence and client website evaluations.
 - **Added:** 2026-03-19
+
+### Kener
+- **Repo:** [rajnandan1/kener](https://github.com/rajnandan1/kener)
+- **Stars:** 4.8K ⭐
+- **Stack:** Svelte, SvelteKit, Node.js
+- **License:** MIT
+- **What it does:** Modern self-hosted status page system with beautiful UI - lightweight alternative to StatusPage and Uptime Kuma.
+- **Key features:**
+  - Beautiful, responsive status page design
+  - Real-time monitoring with automated checks
+  - Custom domain and branding support
+  - Incident management and notifications
+  - Historical uptime statistics and reporting
+  - Multi-language support
+  - API for external integrations
+  - Minimal resource usage with fast loading
+- **Self-host:** Docker, Node.js, or deploy to Vercel/Netlify
+- **Why it's useful:** Perfect for agencies managing multiple client services. Create professional status pages that build customer confidence and reduce support tickets during outages.
+- **Added:** 2026-03-24
 
 ---
 
@@ -459,6 +479,25 @@ Every project here is:
 - **Why it's useful:** Perfect for agencies and freelancers who need automated expense tracking without paying for Receipt Bank or similar SaaS. Eliminates manual data entry while maintaining full control over financial data.
 - **Added:** 2026-03-23
 
+### ERPNext
+- **Repo:** [frappe/erpnext](https://github.com/frappe/erpnext)
+- **Stars:** 32.4K ⭐
+- **Stack:** Python, JavaScript, MariaDB/PostgreSQL, Redis, Node.js
+- **License:** GPL-3.0
+- **What it does:** Comprehensive open-source ERP system covering accounting, inventory, CRM, project management, and HR - complete NetSuite/SAP alternative.
+- **Key features:**
+  - Integrated accounting with multi-currency and tax support
+  - CRM with lead management and sales pipeline tracking
+  - Inventory management with warehouse and stock tracking
+  - Project management with time tracking and billing
+  - HR management with payroll and leave management
+  - Manufacturing and production planning
+  - Website and e-commerce integration
+  - Workflow automation and custom app development
+- **Self-host:** Docker, manual installation with Frappe Bench, or cloud hosting
+- **Why it's useful:** Perfect all-in-one business management solution for growing agencies. Replaces multiple expensive SaaS tools (QuickBooks + Salesforce + Asana + HR software) with single integrated platform.
+- **Added:** 2026-03-24
+
 ---
 
 ## Design & Media
@@ -584,6 +623,48 @@ Every project here is:
 - **Self-host:** Desktop app, Docker containers, or npm global install for CLI orchestrator
 - **Why it's useful:** Essential for agencies building AI-powered workflows and automation. Provides enterprise-grade AI collaboration without vendor lock-in or monthly fees. Perfect for productizing agentic processes and sharing AI capabilities across teams.
 - **Added:** 2026-03-23
+
+### Gogs
+- **Repo:** [gogs/gogs](https://github.com/gogs/gogs)
+- **Stars:** 47.6K ⭐
+- **Stack:** Go
+- **License:** MIT
+- **What it does:** Painless self-hosted Git service for hosting repositories, managing code, and team collaboration - lightweight GitHub alternative.
+- **Key features:**
+  - Fast, simple Git repository hosting
+  - Web-based repository management interface
+  - User and organization management
+  - Issue tracking and wiki functionality
+  - Webhook support for CI/CD integration
+  - LDAP/AD authentication support
+  - Cross-platform single binary deployment
+  - Low resource requirements
+- **Self-host:** Single binary executable, Docker, or from source
+- **Why it's useful:** Perfect for agencies wanting private Git hosting without GitHub costs or external dependencies. Ideal for client projects requiring code repository control and team collaboration.
+- **Added:** 2026-03-24
+
+---
+
+## Emergency & Preparedness
+
+### Project N.O.M.A.D
+- **Repo:** [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad)
+- **Stars:** 13.1K ⭐
+- **Stack:** TypeScript, Next.js, Node.js, Offline-first architecture
+- **License:** Apache 2.0
+- **What it does:** Self-contained, offline survival computer packed with critical tools, knowledge, and AI for emergency preparedness and off-grid scenarios.
+- **Key features:**
+  - Completely offline operation with local AI models
+  - Emergency communication tools and protocols
+  - Survival guides and knowledge databases
+  - Weather monitoring and alert systems
+  - Medical reference and first aid information
+  - Food and water safety calculators
+  - Power management and battery optimization
+  - Portable deployment on Raspberry Pi or laptops
+- **Self-host:** Docker, single-board computers (Raspberry Pi), or laptop installation
+- **Why it's useful:** Essential for agencies and individuals needing emergency preparedness. Provides critical information and tools when internet/power infrastructure fails. Perfect for remote locations, disaster recovery, and business continuity planning.
+- **Added:** 2026-03-24
 
 ---
 
