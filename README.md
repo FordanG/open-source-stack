@@ -38,7 +38,7 @@ Every project here is:
 | [Email & Marketing](#email--marketing) | Listmonk |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext |
 | [Automation & Workflows](#automation--workflows) | n8n |
-| [Database & Storage](#database--storage) | Databasus |
+| [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs |
 | [Productivity](#productivity) | AFFiNE, Super Productivity |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
@@ -529,6 +529,63 @@ Every project here is:
 ---
 
 ## Database & Storage
+
+### NocoDB
+- **Repo:** [nocodb/nocodb](https://github.com/nocodb/nocodb)
+- **Stars:** 62.5K ⭐
+- **Stack:** TypeScript, Node.js, Vue.js, MySQL, PostgreSQL, SQLite
+- **License:** AGPL-3.0 (with commercial license option)
+- **What it does:** Transforms any database into a smart spreadsheet interface - powerful open-source Airtable alternative with API generation.
+- **Key features:**
+  - Connect to existing MySQL, PostgreSQL, SQL Server, SQLite databases
+  - Automatic REST and GraphQL API generation
+  - Spreadsheet-like interface with rich field types
+  - Form builder with customizable views and sharing
+  - Team collaboration with granular permissions
+  - Webhook support and third-party integrations
+  - Mobile apps for iOS and Android
+  - Import from Airtable, CSV, and Excel files
+- **Self-host:** Docker, Docker Compose, or npm installation with any SQL database
+- **Why it's useful:** Perfect Airtable replacement for agencies managing client data. Eliminates monthly subscription costs while providing database flexibility and API access. Ideal for content management, inventory tracking, and project databases.
+- **Added:** 2026-03-25
+
+### PocketBase
+- **Repo:** [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase)
+- **Stars:** 57.1K ⭐
+- **Stack:** Go, JavaScript, SQLite
+- **License:** MIT
+- **What it does:** Complete backend-as-a-service in a single executable file - open-source Firebase alternative with real-time database, auth, and file storage.
+- **Key features:**
+  - Embedded SQLite database with real-time subscriptions
+  - Built-in authentication with OAuth2 providers
+  - File storage with image resizing and optimization
+  - Admin dashboard for data management
+  - REST and real-time APIs out of the box
+  - Custom business logic with JavaScript hooks
+  - Single binary deployment with no dependencies
+  - Backup and migration tools included
+- **Self-host:** Single executable file, Docker, or compiled from source
+- **Why it's useful:** Perfect Firebase/Supabase alternative for agencies building modern apps. Eliminates vendor lock-in and monthly costs while providing all essential backend services. Ideal for rapid prototyping and production apps.
+- **Added:** 2026-03-25
+
+### MinIO
+- **Repo:** [minio/minio](https://github.com/minio/minio)
+- **Stars:** 60.5K ⭐
+- **Stack:** Go
+- **License:** AGPL-3.0 (with commercial license option)
+- **What it does:** High-performance, S3-compatible object storage server for massive scale data infrastructure and machine learning workloads.
+- **Key features:**
+  - 100% S3 API compatibility for drop-in replacement
+  - Distributed storage with erasure coding
+  - Built-in encryption and immutable object locking
+  - Policy-based IAM with fine-grained access control
+  - Multi-site replication and versioning
+  - Kubernetes native with CSI driver
+  - Web console for administration and monitoring
+  - Lambda compute for event-driven processing
+- **Self-host:** Docker, Kubernetes, or binary deployment with minimal hardware requirements
+- **Why it's useful:** Essential S3 replacement for agencies managing large files, backups, and media assets. Eliminates AWS storage costs while maintaining compatibility with existing S3 tools and workflows. Perfect for data lakes and content delivery.
+- **Added:** 2026-03-25
 
 ### Databasus
 - **Repo:** [databasus/databasus](https://github.com/databasus/databasus)
