@@ -31,7 +31,7 @@ Every project here is:
 | [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
-| [AI & Machine Learning](#ai--machine-learning) | Dify |
+| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0 |
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, OpenCTI |
 | [Auth & Identity](#auth--identity) | ZITADEL |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
@@ -39,8 +39,8 @@ Every project here is:
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext |
 | [Automation & Workflows](#automation--workflows) | n8n |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus |
-| [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs |
-| [Productivity](#productivity) | AFFiNE, Super Productivity |
+| [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby |
+| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 
 ---
@@ -312,6 +312,25 @@ Every project here is:
 - **Self-host:** Docker Compose, Kubernetes, or cloud deployment with PostgreSQL + Redis
 - **Why it's useful:** Build AI-powered features for client projects without vendor lock-in. Perfect for creating custom ChatGPT-like apps, knowledge bases, and automated workflows.
 - **Added:** 2026-03-16
+
+### Mem0
+- **Repo:** [mem0ai/mem0](https://github.com/mem0ai/mem0)
+- **Stars:** 51.0K ⭐
+- **Stack:** Python
+- **License:** Apache 2.0
+- **What it does:** Universal memory layer for AI agents and assistants, enabling personalized and context-aware AI interactions through intelligent long-term memory management.
+- **Key features:**
+  - Multi-level memory (user, session, agent-specific)
+  - 26% accuracy improvement over OpenAI Memory
+  - Hybrid database approach for scalable memory retrieval
+  - Cross-platform memory persistence and synchronization
+  - Memory analytics with TTL, size, and access tracking
+  - SOC 2 & HIPAA compliance with BYOK (Bring Your Own Keys)
+  - Integration with major LLM providers
+  - Personalized AI experiences without vendor lock-in
+- **Self-host:** Python package with local or cloud database backends
+- **Why it's useful:** Essential for agencies building personalized AI assistants and chatbots. Eliminates expensive memory-as-a-service costs while providing enterprise-grade memory capabilities for client AI applications.
+- **Added:** 2026-03-26
 
 ---
 
@@ -700,6 +719,25 @@ Every project here is:
 - **Why it's useful:** Perfect for agencies wanting private Git hosting without GitHub costs or external dependencies. Ideal for client projects requiring code repository control and team collaboration.
 - **Added:** 2026-03-24
 
+### Tabby
+- **Repo:** [TabbyML/tabby](https://github.com/TabbyML/tabby)
+- **Stars:** 33.1K ⭐
+- **Stack:** Rust
+- **License:** Other (Custom open-source license)
+- **What it does:** Self-hosted AI coding assistant offering open-source alternative to GitHub Copilot with full data control and privacy.
+- **Key features:**
+  - Code completion and suggestions powered by local LLMs
+  - Support for multiple programming languages
+  - IDE integrations (VS Code, JetBrains, Vim, Emacs)
+  - Repository-aware context and suggestions
+  - Team collaboration with shared models and settings
+  - Analytics and usage tracking dashboard
+  - Custom model fine-tuning capabilities
+  - Enterprise-grade security and compliance
+- **Self-host:** Docker, Kubernetes, or binary installation with GPU support
+- **Why it's useful:** Perfect GitHub Copilot replacement for agencies wanting AI-powered coding assistance without data privacy concerns. Eliminates monthly subscription costs while providing customizable AI coding support for development teams.
+- **Added:** 2026-03-26
+
 ---
 
 ## Emergency & Preparedness
@@ -763,6 +801,25 @@ Every project here is:
 - **Self-host:** Desktop apps (Windows, Mac, Linux), web version, or Docker
 - **Why it's useful:** Perfect all-in-one productivity solution for agencies and developers. Eliminates need for multiple task management, time tracking, and focus apps. Great for client work tracking and billable hours.
 - **Added:** 2026-03-21
+
+### SiYuan
+- **Repo:** [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
+- **Stars:** 42.1K ⭐
+- **Stack:** TypeScript, Go, Electron
+- **License:** AGPL-3.0
+- **What it does:** Privacy-first, self-hosted personal knowledge management system with block-level reference and Markdown WYSIWYG editing.
+- **Key features:**
+  - Block-based note-taking with bi-directional linking
+  - Markdown WYSIWYG editor with live preview
+  - Full-text search with advanced query syntax
+  - Data synchronization via S3, WebDAV, or local networks
+  - Plugin system for extensibility and customization
+  - Multi-platform support (Windows, Mac, Linux, Android, iOS)
+  - OCR support for extracting text from images
+  - Local-first architecture with offline functionality
+- **Self-host:** Desktop applications, Docker, or mobile apps with self-hosted sync
+- **Why it's useful:** Perfect Notion/Obsidian alternative for agencies and individuals wanting complete data ownership. Ideal for knowledge management, project documentation, and team collaboration without vendor lock-in or monthly fees.
+- **Added:** 2026-03-26
 
 ---
 
