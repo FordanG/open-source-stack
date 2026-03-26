@@ -31,8 +31,8 @@ Every project here is:
 | [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
-| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0 |
-| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, OpenCTI |
+| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking |
+| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI |
 | [Auth & Identity](#auth--identity) | ZITADEL |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk |
@@ -332,6 +332,25 @@ Every project here is:
 - **Why it's useful:** Essential for agencies building personalized AI assistants and chatbots. Eliminates expensive memory-as-a-service costs while providing enterprise-grade memory capabilities for client AI applications.
 - **Added:** 2026-03-26
 
+### OpenViking
+- **Repo:** [volcengine/OpenViking](https://github.com/volcengine/OpenViking)
+- **Stars:** 19.3K ⭐
+- **Stack:** Python, FastAPI, PostgreSQL, Redis, Vector databases
+- **License:** Apache 2.0
+- **What it does:** Open-source context database designed specifically for AI agents, unifying the management of context (memory, resources, and skills) through a file system paradigm.
+- **Key features:**
+  - File system paradigm for organizing AI agent context and resources
+  - Hierarchical context delivery with inheritance and scoping
+  - Self-evolving knowledge base with automated context updates
+  - Integration with OpenClaw and other AI agent frameworks
+  - Multi-modal context storage (text, images, documents, code)
+  - Vector-based semantic search and retrieval
+  - Plugin system for extending functionality
+  - RESTful API for programmatic access and management
+- **Self-host:** Docker Compose with PostgreSQL, Redis, and vector database backends
+- **Why it's useful:** Perfect for agencies building complex AI agent systems that need persistent context and memory. Eliminates vendor lock-in for AI memory services while providing advanced context management for sophisticated AI workflows.
+- **Added:** 2026-03-27
+
 ---
 
 ## DevOps & Infrastructure
@@ -354,6 +373,25 @@ Every project here is:
 - **Self-host:** Single Docker container or full installation on VPS with Docker
 - **Why it's useful:** Perfect for agencies wanting Heroku-like simplicity without vendor lock-in or monthly costs. Ideal for deploying client applications with full control over infrastructure and zero platform fees.
 - **Added:** 2026-03-22
+
+### Coolify
+- **Repo:** [coollabsio/coolify](https://github.com/coollabsio/coolify)
+- **Stars:** 52.1K ⭐
+- **Stack:** PHP, Laravel, Livewire, TailwindCSS, Docker, Alpine Linux
+- **License:** Apache 2.0
+- **What it does:** Open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services.
+- **Key features:**
+  - Deploy from Git repositories with automatic CI/CD pipelines
+  - 280+ pre-configured one-click services (WordPress, PostgreSQL, Redis, etc.)
+  - Multi-server management with SSH-based deployment
+  - Automatic SSL certificate management with Let's Encrypt
+  - Built-in monitoring with resource usage tracking
+  - Team collaboration with role-based permissions
+  - Webhook support for external integrations
+  - Docker Compose support with custom configurations
+- **Self-host:** Docker installation on any Linux server with SSH access
+- **Why it's useful:** More comprehensive than Dokploy with 280+ services and mature ecosystem. Perfect for agencies managing multiple client applications and databases with enterprise-grade features but self-hosted control.
+- **Added:** 2026-03-27
 
 ### OpenCTI
 - **Repo:** [OpenCTI-Platform/opencti](https://github.com/OpenCTI-Platform/opencti)
