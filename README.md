@@ -28,7 +28,7 @@ Every project here is:
 | [CRM & Sales](#crm--sales) | Twenty |
 | [Project Management](#project-management) | Plane |
 | [Communication](#communication) | Chatwoot, Fluxer |
-| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener |
+| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking |
@@ -37,8 +37,8 @@ Every project here is:
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext |
-| [Automation & Workflows](#automation--workflows) | n8n |
-| [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus |
+| [Automation & Workflows](#automation--workflows) | n8n, Windmill |
+| [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby |
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
@@ -227,6 +227,25 @@ Every project here is:
 - **Self-host:** Docker, Node.js, or deploy to Vercel/Netlify
 - **Why it's useful:** Perfect for agencies managing multiple client services. Create professional status pages that build customer confidence and reduce support tickets during outages.
 - **Added:** 2026-03-24
+
+### Uptrace
+- **Repo:** [uptrace/uptrace](https://github.com/uptrace/uptrace)
+- **Stars:** 3.5K ⭐
+- **Stack:** Go, TypeScript, ClickHouse, PostgreSQL, OpenTelemetry
+- **License:** Other (Custom open-source license)
+- **What it does:** Open-source APM platform supporting distributed tracing, metrics, and logs with OpenTelemetry - cost-effective Datadog alternative with 10x lower costs.
+- **Key features:**
+  - Single UI for traces, metrics, and logs
+  - 50+ pre-built dashboards automatically generated
+  - Service graph and chart annotations
+  - SQL-like query language for spans aggregation
+  - Promql-like language for metrics aggregation
+  - Grafana compatibility as Tempo/Prometheus datasource
+  - SSO support with OpenID Connect
+  - Efficient processing: 10K+ spans/second on single core
+- **Self-host:** Docker Compose with ClickHouse, PostgreSQL, and Redis
+- **Why it's useful:** Perfect for agencies needing comprehensive observability without Datadog's pricing. Processes billions of spans on single server with excellent compression and performance.
+- **Added:** 2026-03-28
 
 ---
 
@@ -583,6 +602,25 @@ Every project here is:
 - **Why it's useful:** Essential for agency automation - client onboarding, social media posting, data sync between tools, invoice generation. Eliminates expensive Zapier subscriptions while providing more flexibility.
 - **Added:** 2026-03-16
 
+### Windmill
+- **Repo:** [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
+- **Stars:** 16.1K ⭐
+- **Stack:** TypeScript, Python, Go, Rust, Bash, SQL, PostgreSQL
+- **License:** AGPL-3.0 (with commercial license option)
+- **What it does:** Open-source developer platform for internal code - APIs, background jobs, workflows and UIs with fastest workflow engine (13x vs Airflow).
+- **Key features:**
+  - Scripts automatically turned into sharable UIs
+  - Support for Python, TypeScript, Go, Bash, SQL, PowerShell, Rust
+  - Visual workflow builder with low-code components
+  - Auto-generated REST APIs from scripts
+  - Built-in authentication and access control
+  - High-performance workflow execution engine
+  - Self-hostable alternative to Retool, Pipedream, Superblocks
+  - Integration with external databases and services
+- **Self-host:** Docker Compose, Kubernetes, or single binary with PostgreSQL
+- **Why it's useful:** Perfect for agencies building internal tools and automation workflows. Combines the power of custom code with no-code interfaces - eliminates expensive Retool subscriptions while providing more flexibility.
+- **Added:** 2026-03-28
+
 ---
 
 ## Database & Storage
@@ -661,6 +699,25 @@ Every project here is:
 - **Self-host:** Docker, Docker Compose, or Kubernetes deployment
 - **Why it's useful:** Essential for agencies managing client databases. Automated backups with enterprise features, encryption, and notifications - eliminates manual backup processes and reduces data loss risk.
 - **Added:** 2026-03-20
+
+### Supavisor
+- **Repo:** [supabase/supavisor](https://github.com/supabase/supavisor)
+- **Stars:** 2.1K ⭐
+- **Stack:** Elixir, Erlang, PostgreSQL
+- **License:** Apache 2.0
+- **What it does:** Cloud-native, multi-tenant PostgreSQL connection pooler designed for high availability and scalability - modern PgBouncer alternative.
+- **Key features:**
+  - Scalable connection pooling for millions of client connections
+  - Multi-tenant architecture with tenant isolation
+  - Cloud-native design with clustering and high availability
+  - Compatible with PgBouncer (transaction and session modes)
+  - Dynamic tenant configuration and management
+  - Prometheus metrics and observability
+  - Load balancing across multiple database instances
+  - Built for modern cloud computing environments
+- **Self-host:** Docker, Kubernetes, or Elixir application deployment
+- **Why it's useful:** Perfect for agencies managing multiple client databases or SaaS applications. Eliminates connection bottlenecks and provides enterprise-grade connection management without expensive cloud pooling services.
+- **Added:** 2026-03-28
 
 ---
 
