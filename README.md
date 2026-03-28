@@ -31,7 +31,7 @@ Every project here is:
 | [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
-| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking |
+| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter |
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI |
 | [Auth & Identity](#auth--identity) | ZITADEL |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
@@ -39,7 +39,7 @@ Every project here is:
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext |
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
-| [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby |
+| [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra |
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 
@@ -369,6 +369,44 @@ Every project here is:
 - **Self-host:** Docker Compose with PostgreSQL, Redis, and vector database backends
 - **Why it's useful:** Perfect for agencies building complex AI agent systems that need persistent context and memory. Eliminates vendor lock-in for AI memory services while providing advanced context management for sophisticated AI workflows.
 - **Added:** 2026-03-27
+
+### Onyx
+- **Repo:** [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx)
+- **Stars:** 19.7K ⭐
+- **Stack:** Python, TypeScript, React, PostgreSQL
+- **License:** MIT
+- **What it does:** Feature-rich, self-hostable Chat UI that works with any LLM - comprehensive alternative to ChatGPT UI with agents, web search, RAG, and 40+ knowledge connectors.
+- **Key features:**
+  - Custom AI Agents with unique instructions, knowledge and actions
+  - Web search integration with Google PSE, Exa, Serper, and Firecrawl
+  - Best-in-class hybrid search + knowledge graph for RAG
+  - 40+ application connectors for knowledge ingestion
+  - Deep research capabilities with agentic multi-step search
+  - Code interpreter for data analysis and file generation
+  - Image generation and MCP (Model Context Protocol) support
+  - Enterprise features: SSO, RBAC, document permissioning
+- **Self-host:** Docker, Kubernetes, or one-command installation with PostgreSQL
+- **Why it's useful:** Perfect ChatGPT alternative for agencies wanting full control over AI workflows. Eliminates OpenAI dependency while providing enterprise-grade features for client AI applications and knowledge management.
+- **Added:** 2026-03-29
+
+### Dexter
+- **Repo:** [virattt/dexter](https://github.com/virattt/dexter)
+- **Stars:** 20.1K ⭐
+- **Stack:** TypeScript, Bun runtime
+- **License:** MIT
+- **What it does:** Autonomous financial research agent that performs deep analysis using task planning, self-reflection, and real-time market data - specialized AI assistant for financial research.
+- **Key features:**
+  - Intelligent task planning for complex financial queries
+  - Autonomous execution with real-time financial data access
+  - Self-validation and iterative result refinement
+  - Income statements, balance sheets, and cash flow analysis
+  - WhatsApp gateway for mobile financial research
+  - Built-in safety features with loop detection and step limits
+  - Support for multiple LLM providers (OpenAI, Anthropic, local models)
+  - Comprehensive evaluation suite with LangSmith tracking
+- **Self-host:** Bun runtime installation with Docker support for dependencies
+- **Why it's useful:** Essential for agencies providing financial analysis services or investment research. Eliminates expensive Bloomberg Terminal subscriptions while providing AI-powered financial research capabilities with full data control.
+- **Added:** 2026-03-29
 
 ---
 
@@ -832,6 +870,25 @@ Every project here is:
 - **Self-host:** Docker, Kubernetes, or binary installation with GPU support
 - **Why it's useful:** Perfect GitHub Copilot replacement for agencies wanting AI-powered coding assistance without data privacy concerns. Eliminates monthly subscription costs while providing customizable AI coding support for development teams.
 - **Added:** 2026-03-26
+
+### Chandra
+- **Repo:** [datalab-to/chandra](https://github.com/datalab-to/chandra)
+- **Stars:** 7.5K ⭐
+- **Stack:** Python, HuggingFace Transformers, vLLM
+- **License:** Apache 2.0
+- **What it does:** State-of-the-art OCR model that converts images and PDFs into structured HTML/Markdown/JSON while preserving layout information - comprehensive document intelligence solution.
+- **Key features:**
+  - Support for 90+ languages with excellent multilingual performance
+  - Excellent handwriting recognition including cursive writing
+  - Accurate table extraction and complex layout reconstruction
+  - Math equation recognition and form processing with checkboxes
+  - Image extraction with automated captioning and structured data
+  - Two inference modes: local (HuggingFace) and remote (vLLM server)
+  - Command-line tools and interactive Streamlit app
+  - Batch processing with parallel workers for production use
+- **Self-host:** Docker containers, Python package, or vLLM server deployment
+- **Why it's useful:** Perfect for agencies processing documents, forms, and legacy content. Eliminates expensive OCR services like Adobe PDF Services or Google Document AI while providing superior accuracy for multilingual content and complex layouts.
+- **Added:** 2026-03-29
 
 ---
 
