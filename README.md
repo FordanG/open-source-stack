@@ -31,15 +31,15 @@ Every project here is:
 | [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
-| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter |
+| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi |
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI |
 | [Auth & Identity](#auth--identity) | ZITADEL |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk |
-| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext |
+| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB |
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
-| [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra |
+| [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 
@@ -408,6 +408,25 @@ Every project here is:
 - **Why it's useful:** Essential for agencies providing financial analysis services or investment research. Eliminates expensive Bloomberg Terminal subscriptions while providing AI-powered financial research capabilities with full data control.
 - **Added:** 2026-03-29
 
+### Airi
+- **Repo:** [moeru-ai/airi](https://github.com/moeru-ai/airi)
+- **Stars:** 36.2K ⭐
+- **Stack:** TypeScript
+- **License:** MIT
+- **What it does:** Self-hosted AI companion platform enabling personalized, interactive AI characters with voice chat, gaming integration, and cross-platform support.
+- **Key features:**
+  - Real-time voice chat with natural conversation flow
+  - Gaming integration (Minecraft, Factorio) for interactive experiences
+  - Custom AI personality creation and character development
+  - Cross-platform support (Web, macOS, Windows)
+  - Self-hosted with complete data privacy and control
+  - Extensible plugin system for custom functionality
+  - Multi-modal interaction (text, voice, actions)
+  - Local AI model support with cloud provider options
+- **Self-host:** Docker deployment or native installation with local AI models
+- **Why it's useful:** Perfect for agencies exploring interactive AI experiences or building custom AI assistants for clients. Provides foundation for creating personalized AI companions without relying on proprietary platforms, ideal for entertainment, education, or customer service applications.
+- **Added:** 2026-03-30
+
 ---
 
 ## DevOps & Infrastructure
@@ -611,6 +630,25 @@ Every project here is:
 - **Self-host:** Docker, manual installation with Frappe Bench, or cloud hosting
 - **Why it's useful:** Perfect all-in-one business management solution for growing agencies. Replaces multiple expensive SaaS tools (QuickBooks + Salesforce + Asana + HR software) with single integrated platform.
 - **Added:** 2026-03-24
+
+### OpenBB
+- **Repo:** [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)
+- **Stars:** 63.9K ⭐
+- **Stack:** Python
+- **License:** Other (Custom open-source)
+- **What it does:** Financial data platform for analysts, quants and AI agents with access to 350+ financial datasets from dozens of data providers.
+- **Key features:**
+  - Access to 350+ financial datasets (stocks, bonds, ETFs, options, crypto)
+  - Terminal interface for financial research and analysis
+  - Python SDK for programmatic access and automation
+  - AI agent integration for automated financial research
+  - Real-time and historical market data
+  - Custom dashboard creation and visualization
+  - API endpoints for integration with trading systems
+  - Support for institutional and retail data sources
+- **Self-host:** Python package installation with local workspace setup
+- **Why it's useful:** Perfect Bloomberg Terminal replacement for agencies handling financial analysis or fintech clients. Provides comprehensive financial data access without expensive subscriptions while enabling AI-powered financial research automation.
+- **Added:** 2026-03-30
 
 ---
 
@@ -889,6 +927,25 @@ Every project here is:
 - **Self-host:** Docker containers, Python package, or vLLM server deployment
 - **Why it's useful:** Perfect for agencies processing documents, forms, and legacy content. Eliminates expensive OCR services like Adobe PDF Services or Google Document AI while providing superior accuracy for multilingual content and complex layouts.
 - **Added:** 2026-03-29
+
+### Fastfetch
+- **Repo:** [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- **Stars:** 21.1K ⭐
+- **Stack:** C
+- **License:** MIT
+- **What it does:** High-performance, feature-rich system information tool - maintained neofetch alternative focused on speed and customization.
+- **Key features:**
+  - Lightning-fast system information display (10x+ faster than neofetch)
+  - Extensive customization options with JSON configuration
+  - Support for 150+ system information modules
+  - Cross-platform compatibility (Linux, macOS, Windows, BSD)
+  - Custom ASCII art and logo support
+  - Multiple output formats (plain text, JSON, key-value)
+  - Plugin architecture for extensible functionality
+  - Low resource usage and minimal dependencies
+- **Self-host:** Single binary installation, package managers, or compile from source
+- **Why it's useful:** Essential system information tool for developers and system administrators. Perfect replacement for deprecated neofetch with active maintenance, superior performance, and extensive customization options for terminal environments and system monitoring.
+- **Added:** 2026-03-30
 
 ---
 
