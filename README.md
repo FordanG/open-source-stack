@@ -33,11 +33,11 @@ Every project here is:
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi |
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI |
-| [Auth & Identity](#auth--identity) | ZITADEL |
+| [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB |
-| [Automation & Workflows](#automation--workflows) | n8n, Windmill |
+| [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan |
@@ -510,6 +510,25 @@ Every project here is:
 - **Why it's useful:** Perfect Auth0/Okta replacement for agencies building B2B SaaS. Handles complex multi-tenant authentication, SSO, and identity brokering without vendor lock-in.
 - **Added:** 2026-03-20
 
+### Stack Auth
+- **Repo:** [stack-auth/stack-auth](https://github.com/stack-auth/stack-auth)
+- **Stars:** 4.5K ⭐
+- **Stack:** TypeScript, Next.js, React, PostgreSQL, Prisma
+- **License:** MIT and AGPL-3.0 (dual license)
+- **What it does:** Developer-friendly, fully open-source authentication solution - modern alternative to Auth0, Clerk, and Supabase Auth with focus on ease of use.
+- **Key features:**
+  - Complete authentication components (OAuth, password, magic links, passkeys)
+  - Multi-tenancy and team management with role-based access control
+  - User dashboard with analytics and management tools
+  - Account settings pages with zero configuration required
+  - OAuth connections management for third-party APIs
+  - User impersonation for debugging and support
+  - Automatic email system with WYSIWYG editor
+  - Machine-to-machine (M2M) authentication
+- **Self-host:** Export user data and self-host at any time with optional managed service
+- **Why it's useful:** Perfect Auth0/Clerk alternative for agencies wanting developer-friendly authentication without vendor lock-in. Gets projects started in 5 minutes with production-ready features and fair pricing.
+- **Added:** 2026-03-31
+
 ---
 
 ## Forms & Surveys
@@ -654,7 +673,23 @@ Every project here is:
 
 ## Design & Media
 
-*Coming soon*
+### Postiz
+- **Repo:** [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
+- **Stars:** 27.2K ⭐
+- **Stack:** TypeScript, Next.js, NestJS, PostgreSQL, Temporal, Prisma
+- **License:** AGPL-3.0
+- **What it does:** AI-powered social media scheduling and management platform - comprehensive open-source alternative to Buffer, Hootsuite, and SproutSocial.
+- **Key features:**
+  - Multi-platform scheduling (Twitter/X, LinkedIn, Facebook, Instagram, Discord, Mastodon, Bluesky)
+  - AI-powered content generation and optimization
+  - Team collaboration with approval workflows and comments
+  - Advanced analytics and performance tracking
+  - Bulk scheduling and content calendar management
+  - Direct OAuth authentication with platforms (no API key management)
+  - Public API and integrations (N8N, Make.com, Zapier)
+- **Self-host:** Docker, Docker Compose, or from source with PostgreSQL and Redis
+- **Why it's useful:** Perfect Buffer/Hootsuite replacement for agencies managing multiple client social accounts. Eliminates monthly subscription costs while providing AI-powered content features and team collaboration tools.
+- **Added:** 2026-03-31
 
 ---
 
@@ -696,6 +731,25 @@ Every project here is:
 - **Self-host:** Docker Compose, Kubernetes, or single binary with PostgreSQL
 - **Why it's useful:** Perfect for agencies building internal tools and automation workflows. Combines the power of custom code with no-code interfaces - eliminates expensive Retool subscriptions while providing more flexibility.
 - **Added:** 2026-03-28
+
+### ToolJet
+- **Repo:** [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet)
+- **Stars:** 30.0K ⭐
+- **Stack:** TypeScript, React, NestJS, PostgreSQL, Docker
+- **License:** AGPL-3.0
+- **What it does:** Open-source low-code platform for building internal tools, dashboards, and business applications - comprehensive alternative to Retool, Appsmith, and Microsoft Power Apps.
+- **Key features:**
+  - Visual app builder with 60+ responsive components (tables, charts, forms, lists)
+  - Built-in no-code database for rapid prototyping
+  - 80+ data source connectors (databases, APIs, cloud storage, SaaS tools)
+  - Multi-page apps with collaborative multiplayer editing
+  - JavaScript and Python code execution within apps
+  - Granular access control with role-based permissions
+  - White-labeling and custom branding options
+  - Extensible plugin architecture with ToolJet CLI
+- **Self-host:** Docker, Kubernetes, cloud deployment with comprehensive documentation
+- **Why it's useful:** Perfect Retool replacement for agencies building custom internal tools and client dashboards. Eliminates expensive per-user licensing while providing enterprise-grade features and extensive integration options.
+- **Added:** 2026-03-31
 
 ---
 
