@@ -28,16 +28,16 @@ Every project here is:
 | [CRM & Sales](#crm--sales) | Twenty |
 | [Project Management](#project-management) | Plane |
 | [Communication](#communication) | Chatwoot, Fluxer |
-| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace |
+| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
-| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi |
+| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse |
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB |
-| [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet |
+| [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan |
@@ -247,6 +247,25 @@ Every project here is:
 - **Why it's useful:** Perfect for agencies needing comprehensive observability without Datadog's pricing. Processes billions of spans on single server with excellent compression and performance.
 - **Added:** 2026-03-28
 
+### OpenStatus
+- **Repo:** [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus)
+- **Stars:** 8.5K ⭐
+- **Stack:** TypeScript, Next.js, Tailwind CSS, SQLite, Turso
+- **License:** AGPL-3.0
+- **What it does:** Open-source status page with uptime monitoring and API monitoring as code - modern alternative to StatusPage and Better Uptime.
+- **Key features:**
+  - Beautiful status page with custom domains and branding
+  - Global uptime monitoring from 28 regions
+  - API monitoring with response time tracking
+  - Incident management with automated notifications
+  - Monitoring as code with configuration files
+  - Real-time dashboards and historical analytics
+  - Webhook integrations and alerting
+  - Public API for external integrations
+- **Self-host:** Docker containers with SQLite/Turso database
+- **Why it's useful:** Perfect StatusPage/Better Uptime replacement for agencies managing multiple client services. Create professional status pages that build customer confidence and provide transparent communication during outages.
+- **Added:** 2026-04-01
+
 ---
 
 ## Content & CMS
@@ -426,6 +445,25 @@ Every project here is:
 - **Self-host:** Docker deployment or native installation with local AI models
 - **Why it's useful:** Perfect for agencies exploring interactive AI experiences or building custom AI assistants for clients. Provides foundation for creating personalized AI companions without relying on proprietary platforms, ideal for entertainment, education, or customer service applications.
 - **Added:** 2026-03-30
+
+### Langfuse
+- **Repo:** [langfuse/langfuse](https://github.com/langfuse/langfuse)
+- **Stars:** 24.1K ⭐
+- **Stack:** TypeScript, Next.js, Prisma, PostgreSQL
+- **License:** Other (Custom open-source license)
+- **What it does:** Open-source LLM engineering platform providing comprehensive observability, metrics, evaluations, and prompt management for AI applications.
+- **Key features:**
+  - LLM observability with detailed tracing and metrics
+  - Prompt management and versioning system
+  - Model evaluation and testing framework
+  - Playground for testing prompts and models
+  - Dataset management for training and evaluation
+  - OpenTelemetry integration for standard observability
+  - Integration with LangChain, OpenAI SDK, LiteLLM
+  - Cost tracking and performance analytics
+- **Self-host:** Docker Compose, Kubernetes, or from source with PostgreSQL
+- **Why it's useful:** Essential for agencies building AI applications. Provides comprehensive monitoring, debugging, and optimization tools for LLM-powered features without expensive observability subscriptions.
+- **Added:** 2026-04-01
 
 ---
 
@@ -750,6 +788,25 @@ Every project here is:
 - **Self-host:** Docker, Kubernetes, cloud deployment with comprehensive documentation
 - **Why it's useful:** Perfect Retool replacement for agencies building custom internal tools and client dashboards. Eliminates expensive per-user licensing while providing enterprise-grade features and extensive integration options.
 - **Added:** 2026-03-31
+
+### Activepieces
+- **Repo:** [activepieces/activepieces](https://github.com/activepieces/activepieces)
+- **Stars:** 21.5K ⭐
+- **Stack:** TypeScript, Angular, Node.js, PostgreSQL
+- **License:** Other (Custom open-source license)
+- **What it does:** Open-source business automation platform with AI agents and MCP integration - powerful Zapier alternative with 400+ connectors.
+- **Key features:**
+  - 400+ pre-built connectors for popular apps and services
+  - AI agents integration with MCP (Model Context Protocol) servers
+  - Visual workflow builder with drag-and-drop interface
+  - Custom JavaScript code execution within flows
+  - AI-powered workflow automation and intelligent triggers
+  - Team collaboration with version control and sharing
+  - Advanced scheduling and conditional logic
+  - Self-hosted with cloud option available
+- **Self-host:** Docker, Kubernetes, or from source with PostgreSQL
+- **Why it's useful:** Perfect Zapier/Make alternative for agencies building client automation. Combines traditional workflow automation with AI agents, eliminating expensive subscription costs while providing cutting-edge AI integration capabilities.
+- **Added:** 2026-04-01
 
 ---
 
