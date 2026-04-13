@@ -266,6 +266,25 @@ Every project here is:
 - **Why it's useful:** Perfect StatusPage/Better Uptime replacement for agencies managing multiple client services. Create professional status pages that build customer confidence and provide transparent communication during outages.
 - **Added:** 2026-04-01
 
+### Uptime Kuma
+- **Repo:** [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
+- **Stars:** 84.8K ⭐
+- **Stack:** Node.js, Vue.js, SQLite
+- **License:** MIT
+- **What it does:** Fancy, easy-to-use self-hosted monitoring tool with beautiful UI and comprehensive notification support - popular alternative to commercial uptime services.
+- **Key features:**
+  - Monitor HTTP(s), TCP, Ping, DNS, WebSocket, Docker containers, and more
+  - Beautiful reactive UI with real-time status updates
+  - 90+ notification services (Telegram, Discord, Slack, Email, etc.)
+  - Multiple status pages with custom domain mapping
+  - Certificate monitoring and SSL expiration alerts
+  - 2FA authentication and proxy support
+  - Ping charts and historical uptime statistics
+  - 20-second monitoring intervals with customizable settings
+- **Self-host:** Docker Compose, single Docker container, or Node.js installation
+- **Why it's useful:** Perfect Pingdom/UptimeRobot replacement for agencies monitoring client infrastructure. Beautiful interface makes it easy for clients to understand their service status, while comprehensive notifications ensure quick incident response.
+- **Added:** 2026-04-04
+
 ---
 
 ## Content & CMS
@@ -464,6 +483,60 @@ Every project here is:
 - **Self-host:** Docker Compose, Kubernetes, or from source with PostgreSQL
 - **Why it's useful:** Essential for agencies building AI applications. Provides comprehensive monitoring, debugging, and optimization tools for LLM-powered features without expensive observability subscriptions.
 - **Added:** 2026-04-01
+
+### LibreChat
+- **Repo:** [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat)
+- **Stars:** 35.2K ⭐
+- **Stack:** TypeScript, React, Node.js, MongoDB, Redis
+- **License:** MIT
+- **What it does:** Enhanced ChatGPT clone with agents, MCP support, multi-provider AI integration, and comprehensive self-hosting capabilities.
+- **Key features:**
+  - Support for 20+ AI providers (OpenAI, Anthropic, Google, Groq, local models via Ollama)
+  - AI Agents with marketplace and collaborative sharing
+  - Model Context Protocol (MCP) integration for tools
+  - Code interpreter with secure sandboxed execution (Python, Node.js, Go, etc.)
+  - Generative UI with React/HTML artifacts
+  - Web search integration and RAG capabilities
+  - Multi-user authentication and granular permissions
+  - Resumable streams and multi-device sync
+- **Self-host:** Docker Compose, Kubernetes, or from source with MongoDB/PostgreSQL
+- **Why it's useful:** Perfect self-hosted ChatGPT alternative for agencies wanting full control over AI conversations. Eliminates OpenAI dependency while providing enterprise-grade features like agents, code execution, and multi-provider support.
+- **Added:** 2026-04-04
+
+### Open WebUI
+- **Repo:** [open-webui/open-webui](https://github.com/open-webui/open-webui)
+- **Stars:** 84.4K ⭐
+- **Stack:** Python, Svelte, Docker
+- **License:** MIT
+- **What it does:** User-friendly, extensible AI interface supporting Ollama and OpenAI-compatible APIs with built-in RAG engine - completely offline AI deployment solution.
+- **Key features:**
+  - Seamless Ollama and OpenAI API integration
+  - Built-in RAG inference engine for knowledge bases
+  - Native Python function calling and tools workspace
+  - Voice/video calls with multiple STT/TTS providers
+  - Model builder for custom Ollama models and characters
+  - Progressive Web App (PWA) with offline support
+  - Granular user permissions and role management
+  - Full Markdown/LaTeX support with responsive design
+- **Self-host:** Docker, Kubernetes, or pip installation with local/cloud AI models
+- **Why it's useful:** Essential for agencies deploying local AI infrastructure. Provides ChatGPT-like experience with complete offline capability, perfect for sensitive client data and custom AI workflows without cloud dependencies.
+- **Added:** 2026-04-04
+
+### Kronos
+- **Repo:** [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)
+- **Stars:** 52.9K ⭐
+- **Stack:** Python, Transformers, PyTorch
+- **License:** MIT
+- **What it does:** First open-source foundation model for financial candlesticks (K-lines), trained on data from 45+ global exchanges — the "language" of financial markets.
+- **Key features:**
+  - Specialized K-line tokenizer for OHLCV data quantization
+  - Autoregressive Transformer pre-trained on hierarchical discrete tokens
+  - Handles high-noise financial data characteristics
+  - Fine-tuning scripts for custom financial tasks
+  - AAAI 2026 accepted paper with full arXiv documentation
+- **Self-host:** Download checkpoints and run inference locally; HuggingFace model available
+- **Why it's useful:** Enables financial AI applications — market analysis, trading signal generation, risk assessment — with a purpose-built model rather than generic LLMs.
+- **Added:** 2026-04-13
 
 ---
 
@@ -707,6 +780,25 @@ Every project here is:
 - **Why it's useful:** Perfect Bloomberg Terminal replacement for agencies handling financial analysis or fintech clients. Provides comprehensive financial data access without expensive subscriptions while enabling AI-powered financial research automation.
 - **Added:** 2026-03-30
 
+### Crater
+- **Repo:** [crater-invoice-inc/crater](https://github.com/crater-invoice-inc/crater)
+- **Stars:** 8.3K ⭐
+- **Stack:** Laravel, Vue.js, PHP, MySQL, React Native
+- **License:** AGPL-3.0
+- **What it does:** Comprehensive open-source invoicing solution for individuals and businesses with web and mobile apps for expense tracking, payments, and professional invoice creation.
+- **Key features:**
+  - Professional invoice and estimate creation with customizable templates
+  - Expense tracking and payment management
+  - Multi-currency support and tax calculations
+  - Customer and vendor management
+  - Recurring invoices and payment reminders
+  - Mobile apps for iOS and Android
+  - Custom fields for invoices and estimates
+  - Payment gateway integrations (Stripe, PayPal, Razorpay)
+- **Self-host:** Laravel deployment with MySQL/PostgreSQL, or Docker installation
+- **Why it's useful:** Perfect FreshBooks/QuickBooks alternative for freelancers and small agencies. Eliminates monthly subscription costs while providing professional invoicing capabilities with mobile access for on-the-go billing and expense tracking.
+- **Added:** 2026-04-04
+
 ---
 
 ## Design & Media
@@ -728,6 +820,24 @@ Every project here is:
 - **Self-host:** Docker, Docker Compose, or from source with PostgreSQL and Redis
 - **Why it's useful:** Perfect Buffer/Hootsuite replacement for agencies managing multiple client social accounts. Eliminates monthly subscription costs while providing AI-powered content features and team collaboration tools.
 - **Added:** 2026-03-31
+
+### Voicebox
+- **Repo:** [jamiepine/voicebox](https://github.com/jamiepine/voicebox)
+- **Stars:** 16.2K ⭐
+- **Stack:** Python, React, Tauri
+- **License:** MIT
+- **What it does:** Local-first open-source voice synthesis studio — clone voices from seconds of audio, generate speech in 23 languages, apply effects and compose multi-voice projects.
+- **Key features:**
+  - Voice cloning from a few seconds of reference audio
+  - 5 TTS engines: Qwen3-TTS, LuxTTS, Chatterbox, ElevenLabs-compatible, Microsoft
+  - 23-language multilingual speech generation
+  - Post-processing effects and audio composition
+  - Multi-voice timeline editor for complex projects
+  - Runs entirely locally — complete data privacy
+  - Desktop app with API access for integrations
+- **Self-host:** Download the app and run locally; no cloud or API keys needed
+- **Why it's useful:** Open-source ElevenLabs alternative for agencies building voice-enabled applications — podcasting, audiobooks, accessibility tools, localization — with full data control.
+- **Added:** 2026-04-13
 
 ---
 
@@ -1057,6 +1167,23 @@ Every project here is:
 - **Self-host:** Single binary installation, package managers, or compile from source
 - **Why it's useful:** Essential system information tool for developers and system administrators. Perfect replacement for deprecated neofetch with active maintenance, superior performance, and extensive customization options for terminal environments and system monitoring.
 - **Added:** 2026-03-30
+
+### Archon
+- **Repo:** [coleam00/Archon](https://github.com/coleam00/Archon)
+- **Stars:** 17.6K ⭐
+- **Stack:** TypeScript, YAML, AI-native
+- **License:** MIT
+- **What it does:** First open-source harness builder for AI coding — define development workflows as YAML and run them deterministically across all AI coding agents.
+- **Key features:**
+  - YAML-based workflow definition with planning, implementation, validation, review phases
+  - Deterministic AI coding — same workflow, same sequence every time
+  - Validation gates at each workflow phase
+  - Integrates with Claude, GPT, and other AI coding agents
+  - Makes AI coding repeatable and owned by the team
+  - Like Dockerfiles for infrastructure or GitHub Actions for CI — but for AI dev workflows
+- **Self-host:** Archon DIY platform or self-host the workflow engine
+- **Why it's useful:** Agencies building with AI coding agents get consistency and reliability — encode your development process and stop depending on "the model's mood" for critical tasks.
+- **Added:** 2026-04-13
 
 ---
 
