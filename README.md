@@ -40,7 +40,8 @@ Every project here is:
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
-| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan |
+| [Document Management](#document-management) | DocuSeal, Paperless-ngx |
+| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 
 ---
@@ -1210,6 +1211,32 @@ Every project here is:
 
 ---
 
+## Document Management
+
+### DocuSeal
+- **Repo:** [docusealco/docuseal](https://github.com/docusealco/docuseal)
+- **Stars:** 18,590 (checked 2026-09-22)
+- **License:** AGPL-3.0 with Section 7(b) additional terms; separate Pro features
+- **What it does:** Create fillable PDF forms and collect digital signatures for client agreements.
+- **Self-host:** Docker or Docker Compose; SQLite by default, with PostgreSQL/MySQL options.
+- **Why it's useful:** Replace basic DocuSign workflows; review Pro feature requirements before adoption.
+- **Latest commit checked:** 2026-09-21
+- **Source:** Repository README and GitHub repository/commit metadata.
+- **Added:** 2026-09-22
+
+### Paperless-ngx
+- **Repo:** [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
+- **Stars:** 45,828 (checked 2026-09-22)
+- **License:** GPL-3.0
+- **What it does:** Turn physical documents into a searchable online archive.
+- **Self-host:** Docker Compose; installation and migration guides in the official documentation.
+- **Why it's useful:** Keep agency paperwork in a searchable, self-hosted document archive.
+- **Latest commit checked:** 2026-09-21
+- **Source:** Repository README and GitHub repository/commit metadata.
+- **Added:** 2026-09-22
+
+---
+
 ## Productivity
 
 ### AFFiNE
@@ -1267,6 +1294,17 @@ Every project here is:
 - **Self-host:** Desktop applications, Docker, or mobile apps with self-hosted sync
 - **Why it's useful:** Perfect Notion/Obsidian alternative for agencies and individuals wanting complete data ownership. Ideal for knowledge management, project documentation, and team collaboration without vendor lock-in or monthly fees.
 - **Added:** 2026-03-26
+
+### linkding
+- **Repo:** [sissbruecker/linkding](https://github.com/sissbruecker/linkding)
+- **Stars:** 11,214 (checked 2026-09-22)
+- **License:** MIT
+- **What it does:** Manage research bookmarks with tags, notes, sharing, archival, and a REST API.
+- **Self-host:** Docker; Django-based application.
+- **Why it's useful:** Maintain a shared research and reference library without a hosted bookmark service.
+- **Latest commit checked:** 2026-09-13
+- **Source:** Repository README and GitHub repository/commit metadata.
+- **Added:** 2026-09-22
 
 ---
 
