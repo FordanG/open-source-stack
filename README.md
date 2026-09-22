@@ -27,8 +27,8 @@ Every project here is:
 | [Scheduling & Booking](#scheduling--booking) | Cal.com |
 | [CRM & Sales](#crm--sales) | Twenty |
 | [Project Management](#project-management) | Plane |
-| [Communication](#communication) | Chatwoot, Fluxer |
-| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus |
+| [Communication](#communication) | Chatwoot, Fluxer, ntfy |
+| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse |
@@ -150,6 +150,18 @@ Every project here is:
 - **Self-host:** Docker Compose or from source with Node.js backend
 - **Why it's useful:** Perfect Discord/Slack replacement for agencies and teams wanting data sovereignty, custom branding, and no monthly fees. Ideal for client communication hubs.
 - **Added:** 2026-03-18
+
+### ntfy
+- **Repo:** [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy)
+- **Stars:** 34,375 (checked 2026-09-23)
+- **License:** Apache-2.0 (GitHub license metadata)
+- **What it does:** HTTP-based pub-sub notifications from scripts to phones and desktops using PUT/POST.
+- **Self-host:** Docker, standalone binary, or OS packages; run your own notification server.
+- **Why it's useful:** Route automation and operational alerts without building a notification delivery service.
+- **Latest commit checked:** 2026-08-27
+- **Source:** Repository README and GitHub repository/commit metadata.
+- **Added:** 2026-09-23
+
 
 ---
 
@@ -285,6 +297,18 @@ Every project here is:
 - **Self-host:** Docker Compose, single Docker container, or Node.js installation
 - **Why it's useful:** Perfect Pingdom/UptimeRobot replacement for agencies monitoring client infrastructure. Beautiful interface makes it easy for clients to understand their service status, while comprehensive notifications ensure quick incident response.
 - **Added:** 2026-04-04
+
+### Beszel
+- **Repo:** [henrygd/beszel](https://github.com/henrygd/beszel)
+- **Stars:** 25,637 (checked 2026-09-23)
+- **License:** MIT
+- **What it does:** Lightweight server and Docker resource monitoring with historical metrics and configurable alerts.
+- **Self-host:** Docker hub and agent; PocketBase-backed web dashboard.
+- **Why it's useful:** Track client-host CPU, memory, disk and container usage; complements uptime-only checks.
+- **Latest commit checked:** 2026-09-21
+- **Source:** Repository README and GitHub repository/commit metadata.
+- **Added:** 2026-09-23
+
 
 ---
 
