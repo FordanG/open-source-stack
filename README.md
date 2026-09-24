@@ -36,13 +36,14 @@ Every project here is:
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk |
-| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB |
+| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai |
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Document Management](#document-management) | DocuSeal, Paperless-ngx |
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
+| [IT Asset Management](#it-asset-management) | Snipe-IT |
 
 ---
 
@@ -824,6 +825,18 @@ Every project here is:
 - **Why it's useful:** Perfect FreshBooks/QuickBooks alternative for freelancers and small agencies. Eliminates monthly subscription costs while providing professional invoicing capabilities with mobile access for on-the-go billing and expense tracking.
 - **Added:** 2026-04-04
 
+### Kimai
+- **Repo:** [kimai/kimai](https://github.com/kimai/kimai)
+- **Stars:** 5,043 (checked 2026-09-25)
+- **License:** AGPL-3.0
+- **What it does:** Track team time against customers and projects, then generate reports and invoices.
+- **Self-host:** Docker images or a PHP web server with MariaDB/MySQL.
+- **Why it's useful:** Manage billable agency work with project rates, budgets and a JSON API.
+- **Latest commit checked:** 2026-09-15
+- **Source:** Repository README and GitHub repository/commit metadata.
+- **Added:** 2026-09-25
+
+
 ---
 
 ## Design & Media
@@ -1329,6 +1342,21 @@ Every project here is:
 - **Latest commit checked:** 2026-09-13
 - **Source:** Repository README and GitHub repository/commit metadata.
 - **Added:** 2026-09-22
+
+---
+
+## IT Asset Management
+
+### Snipe-IT
+- **Repo:** [snipe/snipe-it](https://github.com/snipe/snipe-it)
+- **Stars:** 14,974 (checked 2026-09-25)
+- **License:** AGPL-3.0
+- **What it does:** Track IT equipment assignments, purchases and software licenses.
+- **Self-host:** Docker or a PHP/Laravel web-server installation; official installation manual available.
+- **Why it's useful:** Maintain a dedicated equipment and license register instead of spreadsheets.
+- **Latest commit checked:** 2026-09-24
+- **Source:** Repository README and GitHub repository/commit metadata.
+- **Added:** 2026-09-25
 
 ---
 
