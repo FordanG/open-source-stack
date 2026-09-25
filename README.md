@@ -28,7 +28,7 @@ Every project here is:
 | [CRM & Sales](#crm--sales) | Twenty |
 | [Project Management](#project-management) | Plane |
 | [Communication](#communication) | Chatwoot, Fluxer, ntfy |
-| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel |
+| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel, changedetection.io |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse |
@@ -40,7 +40,7 @@ Every project here is:
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
-| [Document Management](#document-management) | DocuSeal, Paperless-ngx |
+| [Document Management](#document-management) | DocuSeal, Paperless-ngx, Gotenberg |
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
@@ -309,6 +309,18 @@ Every project here is:
 - **Latest commit checked:** 2026-09-21
 - **Source:** Repository README and GitHub repository/commit metadata.
 - **Added:** 2026-09-23
+
+
+### changedetection.io
+- **Repo:** [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io)
+- **Stars:** 34,546 (checked 2026-09-26)
+- **License:** Apache-2.0
+- **What it does:** Monitor website content changes, prices and restocks, with notifications via email and webhooks.
+- **Self-host:** Docker or Docker Compose; optional browser-backed fetching for JavaScript-heavy pages.
+- **Why it's useful:** Track competitor pricing and important client-site content changes; complements uptime checks.
+- **Latest commit checked:** 2026-09-25
+- **Source:** Repository README and GitHub repository/commit metadata.
+- **Added:** 2026-09-26
 
 
 ---
@@ -1271,6 +1283,18 @@ Every project here is:
 - **Latest commit checked:** 2026-09-21
 - **Source:** Repository README and GitHub repository/commit metadata.
 - **Added:** 2026-09-22
+
+### Gotenberg
+- **Repo:** [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)
+- **Stars:** 13,164 (checked 2026-09-26)
+- **License:** MIT
+- **What it does:** Docker-based HTTP API that converts HTML, URLs, Markdown and Office documents into PDFs.
+- **Self-host:** Official Docker image with Chromium and LibreOffice included.
+- **Why it's useful:** Generate client reports and invoices in automation workflows without a hosted conversion service.
+- **Latest commit checked:** 2026-09-25
+- **Source:** Repository README and GitHub repository/commit metadata.
+- **Added:** 2026-09-26
+
 
 ---
 
