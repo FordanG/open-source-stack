@@ -31,8 +31,8 @@ Every project here is:
 | [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel, changedetection.io |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
-| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse |
-| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI |
+| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM |
+| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk |
@@ -576,6 +576,19 @@ Every project here is:
 - **Why it's useful:** Enables financial AI applications — market analysis, trading signal generation, risk assessment — with a purpose-built model rather than generic LLMs.
 - **Added:** 2026-04-13
 
+### LiteLLM
+- **Repo:** [BerriAI/litellm](https://github.com/BerriAI/litellm)
+- **Stars:** 59,672 (checked 2026-09-27)
+- **License:** MIT core; enterprise/ separately licensed
+- **What it does:** Self-hosted AI gateway with a unified interface for LLM providers, virtual keys, spend tracking and load balancing.
+- **Self-host:** Docker image or Python-based proxy server; gateway includes an admin dashboard.
+- **Why it's useful:** Centralize model access and track AI usage across agency applications.
+- **Latest commit checked:** 2026-09-26
+- **Source:** Repository README, LICENSE and GitHub repository/commit metadata.
+- **Discovery check:** Jev relevance 2.99/3; duplicate and source review completed. Deployment not tested.
+- **Added:** 2026-09-27
+
+
 ---
 
 ## DevOps & Infrastructure
@@ -636,6 +649,19 @@ Every project here is:
 - **Self-host:** Docker Compose with ElasticSearch, Redis, and MinIO
 - **Why it's useful:** Essential for agencies handling cybersecurity consulting or managing security infrastructure. Provides enterprise-grade threat intelligence capabilities without expensive commercial tools.
 - **Added:** 2026-03-19
+
+### Infisical
+- **Repo:** [Infisical/infisical](https://github.com/Infisical/infisical)
+- **Stars:** 29,452 (checked 2026-09-27)
+- **License:** MIT Expat core; ee/ enterprise features separately licensed
+- **What it does:** Manage application secrets centrally and inject them into development and CI/CD through its CLI, SDKs or API.
+- **Self-host:** Docker Compose; official self-hosting documentation available.
+- **Why it's useful:** Replace scattered environment-file workflows with a dedicated secrets-management service.
+- **Latest commit checked:** 2026-09-26
+- **Source:** Repository README, LICENSE and GitHub repository/commit metadata.
+- **Discovery check:** Jev relevance 2.97/3; duplicate and source review completed. Deployment not tested.
+- **Added:** 2026-09-27
+
 
 ---
 
