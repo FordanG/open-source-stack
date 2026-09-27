@@ -37,11 +37,11 @@ Every project here is:
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai |
-| [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces |
+| [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces, Appsmith |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Document Management](#document-management) | DocuSeal, Paperless-ngx, Gotenberg |
-| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding |
+| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
 
@@ -994,6 +994,18 @@ Every project here is:
 - **Why it's useful:** Perfect Zapier/Make alternative for agencies building client automation. Combines traditional workflow automation with AI agents, eliminating expensive subscription costs while providing cutting-edge AI integration capabilities.
 - **Added:** 2026-04-01
 
+### Appsmith
+- **Repo:** [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith)
+- **Stars:** 40,959 (checked 2026-09-28)
+- **License:** Apache-2.0 (community edition; commercial features have separate terms)
+- **What it does:** Low-code builder for internal dashboards, admin panels and database/API-backed business tools.
+- **Self-host:** Docker or Kubernetes; official installation guides provided.
+- **Why it's useful:** Build operations dashboards quickly; complements developer-first Refine and offers another low-code option alongside ToolJet.
+- **Latest commit checked:** 2026-09-25
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested.
+- **Added:** 2026-09-28
+
+
 ---
 
 ## Database & Storage
@@ -1392,6 +1404,18 @@ Every project here is:
 - **Latest commit checked:** 2026-09-13
 - **Source:** Repository README and GitHub repository/commit metadata.
 - **Added:** 2026-09-22
+
+### Memos
+- **Repo:** [usememos/memos](https://github.com/usememos/memos)
+- **Stars:** 63,377 (checked 2026-09-28)
+- **License:** MIT
+- **What it does:** Lightweight Markdown timeline for notes, links, work logs and snippets, with search, tags and selective sharing.
+- **Self-host:** Docker with a persistent local data volume.
+- **Why it's useful:** Capture short daily notes without the overhead of the full workspaces already listed; complements linkding bookmarks.
+- **Latest commit checked:** 2026-09-27
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested.
+- **Added:** 2026-09-28
+
 
 ---
 
