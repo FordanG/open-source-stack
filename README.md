@@ -28,14 +28,14 @@ Every project here is:
 | [CRM & Sales](#crm--sales) | Twenty |
 | [Project Management](#project-management) | Plane |
 | [Communication](#communication) | Chatwoot, Fluxer, ntfy |
-| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel, changedetection.io |
+| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel, changedetection.io, Healthchecks |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM |
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
-| [Email & Marketing](#email--marketing) | Listmonk |
+| [Email & Marketing](#email--marketing) | Listmonk, Shlink |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai |
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces, Appsmith |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
@@ -44,6 +44,7 @@ Every project here is:
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
+| [Design & Media](#design--media) | Postiz, Voicebox, Penpot |
 
 ---
 
@@ -321,6 +322,18 @@ Every project here is:
 - **Latest commit checked:** 2026-09-25
 - **Source:** Repository README and GitHub repository/commit metadata.
 - **Added:** 2026-09-26
+
+
+### Healthchecks
+- **Repo:** [healthchecks/healthchecks](https://github.com/healthchecks/healthchecks)
+- **Stars:** 10,370 (checked 2026-09-30)
+- **License:** BSD-3-Clause
+- **What it does:** Monitor cron jobs and background tasks through HTTP/email pings, alerting when expected pings are late.
+- **Self-host:** Official Docker image or Python/Django installation.
+- **Why it's useful:** Detect missed backups and scheduled automation runs; complements the website-uptime monitors already listed.
+- **Latest commit checked:** 2026-09-28
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
+- **Added:** 2026-09-30
 
 
 ---
@@ -748,6 +761,18 @@ Every project here is:
 - **Why it's useful:** Perfect Mailchimp/ConvertKit replacement for client newsletters and email marketing. No monthly fees, full data control, and handles large subscriber lists efficiently.
 - **Added:** 2026-03-16
 
+### Shlink
+- **Repo:** [shlinkio/shlink](https://github.com/shlinkio/shlink)
+- **Stars:** 5,308 (checked 2026-09-30)
+- **License:** MIT
+- **What it does:** Shorten URLs under your own domain using a REST API or CLI, with an optional web client.
+- **Self-host:** Official Docker image or PHP with a supported SQL database.
+- **Why it's useful:** Create branded client and campaign links without a hosted URL-shortening service.
+- **Latest commit checked:** 2026-09-21
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
+- **Added:** 2026-09-30
+
+
 ---
 
 ## Finance & Invoicing
@@ -914,6 +939,18 @@ Every project here is:
 - **Self-host:** Download the app and run locally; no cloud or API keys needed
 - **Why it's useful:** Open-source ElevenLabs alternative for agencies building voice-enabled applications — podcasting, audiobooks, accessibility tools, localization — with full data control.
 - **Added:** 2026-04-13
+
+### Penpot
+- **Repo:** [penpot/penpot](https://github.com/penpot/penpot)
+- **Stars:** 60,503 (checked 2026-09-30)
+- **License:** MPL-2.0
+- **What it does:** Collaborative product design and prototyping with design tokens, responsive layouts and SVG/CSS/HTML inspection.
+- **Self-host:** Docker or Kubernetes; official self-hosting documentation available.
+- **Why it's useful:** A self-hostable alternative for interface design and developer handoff; review separate Enterprise controls before adoption.
+- **Latest commit checked:** 2026-09-29
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
+- **Added:** 2026-09-30
+
 
 ---
 
