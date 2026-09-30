@@ -32,7 +32,7 @@ Every project here is:
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM |
-| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical |
+| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk, Shlink |
@@ -41,7 +41,7 @@ Every project here is:
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Document Management](#document-management) | DocuSeal, Paperless-ngx, Gotenberg |
-| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos |
+| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
 | [Design & Media](#design--media) | Postiz, Voicebox, Penpot |
@@ -674,6 +674,30 @@ Every project here is:
 - **Source:** Repository README, LICENSE and GitHub repository/commit metadata.
 - **Discovery check:** Jev relevance 2.97/3; duplicate and source review completed. Deployment not tested.
 - **Added:** 2026-09-27
+
+
+### restic
+- **Repo:** [restic/restic](https://github.com/restic/restic)
+- **Stars:** 36,352 (checked 2026-10-01)
+- **License:** BSD-2-Clause
+- **What it does:** Encrypted, deduplicated file backups with snapshot restoration and local, SFTP or S3-compatible storage.
+- **Self-host:** Standalone binary on Linux, macOS or Windows; point it at storage you control.
+- **Why it's useful:** Back up files and application data; complements the database-focused Databasus entry.
+- **Latest commit checked:** 2026-09-25
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
+- **Added:** 2026-10-01
+
+
+### Homepage
+- **Repo:** [gethomepage/homepage](https://github.com/gethomepage/homepage)
+- **Stars:** 32,925 (checked 2026-10-01)
+- **License:** GPL-3.0
+- **What it does:** Configurable service dashboard with bookmarks, Docker integration and service-status widgets.
+- **Self-host:** Docker Compose or Node.js source installation; put behind an authenticated reverse proxy or VPN because it has no built-in authentication.
+- **Why it's useful:** Provide one launchpad for self-hosted tools; complements monitoring rather than replacing it.
+- **Latest commit checked:** 2026-09-30
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
+- **Added:** 2026-10-01
 
 
 ---
@@ -1452,6 +1476,19 @@ Every project here is:
 - **Latest commit checked:** 2026-09-27
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested.
 - **Added:** 2026-09-28
+
+
+### BookStack
+- **Repo:** [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack)
+- **Stars:** 19,065 (checked 2026-10-01)
+- **License:** MIT
+- **What it does:** Self-hosted platform for storing and organising documentation with a simple editing experience.
+- **Self-host:** PHP web application with MySQL/MariaDB; official installation guide covers manual setup and Docker options.
+- **Why it's useful:** Maintain structured team procedures and client handover documentation alongside the existing personal-note tools.
+- **Latest commit checked:** 2026-09-30
+- **Upstream:** Development is now managed on [Codeberg](https://codeberg.org/bookstack/bookstack); GitHub is the checked mirror. [Installation guide](https://www.bookstackapp.com/docs/admin/installation/).
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
+- **Added:** 2026-10-01
 
 
 ---
