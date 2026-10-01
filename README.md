@@ -35,7 +35,7 @@ Every project here is:
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
-| [Email & Marketing](#email--marketing) | Listmonk, Shlink |
+| [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai |
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces, Appsmith |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
@@ -795,6 +795,32 @@ Every project here is:
 - **Latest commit checked:** 2026-09-21
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
 - **Added:** 2026-09-30
+
+
+### Plunk
+- **Repo:** [useplunk/plunk](https://github.com/useplunk/plunk)
+- **Stars:** 5,499 (checked 2026-10-02)
+- **License:** AGPL-3.0
+- **What it does:** Combines transactional email APIs, SMTP relay, campaigns and conditional email workflows.
+- **Self-host:** Docker Compose; requires an AWS SES account for sending and configured domain/subdomains. [Hosting guide](https://docs.useplunk.com/self-hosting/introduction).
+- **Why it's useful:** Adds application-email delivery and triggered workflows alongside Listmonk's newsletter use case; SES sending costs still apply.
+- **Latest commit checked:** 2026-09-29
+- **Source:** Repository README, GitHub repository/commit metadata and official hosting documentation; not runtime-tested or visually inspected.
+- **Discovery check:** Jev relevance 2.95/3; repository and topic overlap reviewed.
+- **Added:** 2026-10-02
+
+### Stalwart
+- **Repo:** [stalwartlabs/stalwart](https://github.com/stalwartlabs/stalwart)
+- **Stars:** 14,902 (checked 2026-10-02)
+- **License:** AGPL-3.0 or proprietary Stalwart Enterprise License v2; enterprise feature availability differs.
+- **What it does:** Rust mail and collaboration server with IMAP/JMAP/SMTP, calendars, contacts and web administration.
+- **Self-host:** Docker or native server installation. [Docker guide](https://stalw.art/docs/install/platform/docker/).
+- **Why it's useful:** Adds self-managed mailbox infrastructure, distinct from campaign tools and transactional email platforms.
+- **Adoption note:** Upstream README places 1.0 in the future; assess upgrade compatibility and mail operations before production adoption.
+- **Latest commit checked:** 2026-10-01
+- **Source:** Repository README, GitHub repository/commit metadata and official hosting documentation; not runtime-tested or visually inspected.
+- **Discovery check:** Jev relevance 2.88/3; repository and topic overlap reviewed.
+- **Added:** 2026-10-02
 
 
 ---
