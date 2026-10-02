@@ -33,7 +33,7 @@ Every project here is:
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM |
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage |
-| [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth |
+| [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth, Password Pusher |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai |
@@ -41,7 +41,7 @@ Every project here is:
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Document Management](#document-management) | DocuSeal, Paperless-ngx, Gotenberg |
-| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack |
+| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
 | [Design & Media](#design--media) | Postiz, Voicebox, Penpot |
@@ -740,6 +740,18 @@ Every project here is:
 - **Self-host:** Export user data and self-host at any time with optional managed service
 - **Why it's useful:** Perfect Auth0/Clerk alternative for agencies wanting developer-friendly authentication without vendor lock-in. Gets projects started in 5 minutes with production-ready features and fair pricing.
 - **Added:** 2026-03-31
+
+### Password Pusher
+- **Repo:** [pglombardo/PasswordPusher](https://github.com/pglombardo/PasswordPusher)
+- **Stars:** 3,210 (checked 2026-10-03)
+- **License:** Apache-2.0
+- **What it does:** Share sensitive text through links that expire after a configured time or number of views, with audit logging.
+- **Self-host:** Docker Compose; separate commercial Pro edition available.
+- **Why it's useful:** Use expiring links for handovers; complements persistent secrets storage rather than replacing it.
+- **Latest commit checked:** 2026-10-02
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
+- **Added:** 2026-10-03
+
 
 ---
 
@@ -1515,6 +1527,18 @@ Every project here is:
 - **Upstream:** Development is now managed on [Codeberg](https://codeberg.org/bookstack/bookstack); GitHub is the checked mirror. [Installation guide](https://www.bookstackapp.com/docs/admin/installation/).
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
 - **Added:** 2026-10-01
+
+
+### PairDrop
+- **Repo:** [schlagmichdoch/PairDrop](https://github.com/schlagmichdoch/PairDrop)
+- **Stars:** 11,516 (checked 2026-10-03)
+- **License:** GPL-3.0
+- **What it does:** Transfer files and text peer-to-peer between devices through a web browser, locally or through internet rooms.
+- **Self-host:** Docker or Node.js; configurable STUN/TURN for network traversal.
+- **Why it's useful:** Move project assets between phones and workstations without requiring a shared cloud drive.
+- **Latest commit checked:** 2026-04-22
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
+- **Added:** 2026-10-03
 
 
 ---
