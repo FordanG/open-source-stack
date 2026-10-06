@@ -32,7 +32,7 @@ Every project here is:
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM |
-| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage |
+| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage, Semaphore UI, NetBox |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth, Password Pusher |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart |
@@ -698,6 +698,31 @@ Every project here is:
 - **Latest commit checked:** 2026-09-30
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
 - **Added:** 2026-10-01
+
+
+### Semaphore UI
+- **Repo:** [semaphoreui/semaphore](https://github.com/semaphoreui/semaphore)
+- **Stars:** 14,237 (checked 2026-10-07)
+- **License:** MIT
+- **What it does:** Web interface for running and scheduling Ansible playbooks, Terraform/OpenTofu and shell scripts, with access control and failed-task notifications.
+- **Self-host:** Docker, binary, or Debian/RPM package; Docker setup documented in the repository README.
+- **Why it's useful:** Give repeatable infrastructure operations a shared execution interface; complements general-purpose workflow tools and deployment hosts already listed.
+- **Latest commit checked:** 2026-10-04
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
+- **Discovery check:** Jev relevance 2.99/3; duplicate and category-overlap review completed.
+- **Added:** 2026-10-07
+
+### NetBox
+- **Repo:** [netbox-community/netbox](https://github.com/netbox-community/netbox)
+- **Stars:** 21,660 (checked 2026-10-07)
+- **License:** Apache-2.0
+- **What it does:** Network source of truth for IP addresses, VLANs, devices, racks and cables, with APIs and configuration rendering; does not directly configure network nodes.
+- **Self-host:** Python/Django application with PostgreSQL and Redis; established installation uses a release archive or Git checkout. [Installation guide](https://netboxlabs.com/docs/netbox/installation/).
+- **Why it's useful:** Document client network infrastructure and feed automation; complements Snipe-IT equipment assignments with network-specific IPAM/DCIM.
+- **Latest commit checked:** 2026-10-06
+- **Source:** Repository README, official installation guide and GitHub repository/commit metadata; not runtime-tested or visually inspected.
+- **Discovery check:** Jev relevance 2.96/3; duplicate and category-overlap review completed.
+- **Added:** 2026-10-07
 
 
 ---
