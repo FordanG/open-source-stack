@@ -32,7 +32,7 @@ Every project here is:
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM |
-| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage, Semaphore UI, NetBox |
+| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage, Semaphore UI, NetBox, BunkerWeb |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth, Password Pusher |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart |
@@ -41,7 +41,7 @@ Every project here is:
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Document Management](#document-management) | DocuSeal, Paperless-ngx, Gotenberg |
-| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop |
+| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
 | [Design & Media](#design--media) | Postiz, Voicebox, Penpot |
@@ -723,6 +723,18 @@ Every project here is:
 - **Source:** Repository README, official installation guide and GitHub repository/commit metadata; not runtime-tested or visually inspected.
 - **Discovery check:** Jev relevance 2.96/3; duplicate and category-overlap review completed.
 - **Added:** 2026-10-07
+
+
+### BunkerWeb
+- **Repo:** [bunkerity/bunkerweb](https://github.com/bunkerity/bunkerweb)
+- **Stars:** 11,053 (checked 2026-10-08)
+- **License:** AGPL-3.0
+- **What it does:** NGINX-based reverse proxy and web application firewall with ModSecurity and the OWASP Core Rule Set.
+- **Self-host:** Docker, Linux, Docker Swarm or Kubernetes; configuration through environment settings or a web UI.
+- **Why it's useful:** Adds a dedicated WAF capability for self-hosted client services, distinct from the existing monitoring and threat-intelligence tools.
+- **Latest commit checked:** 2026-09-21
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-08
 
 
 ---
@@ -1564,6 +1576,18 @@ Every project here is:
 - **Latest commit checked:** 2026-04-22
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
 - **Added:** 2026-10-03
+
+
+### Karakeep
+- **Repo:** [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)
+- **Stars:** 29,508 (checked 2026-10-08)
+- **License:** AGPL-3.0
+- **What it does:** Capture links, notes, images and PDFs with full-text/semantic search and optional LLM-based tagging and summarization.
+- **Self-host:** Docker; official installation guide at https://docs.karakeep.app/Installation/docker.
+- **Why it's useful:** Adds multimedia capture, OCR and optional local-model tagging beyond the existing linkding bookmark workflow.
+- **Latest commit checked:** 2026-10-04
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-08
 
 
 ---
