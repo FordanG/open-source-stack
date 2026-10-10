@@ -24,15 +24,15 @@ Every project here is:
 
 | Category | Projects |
 |----------|----------|
-| [Scheduling & Booking](#scheduling--booking) | Cal.com |
+| [Scheduling & Booking](#scheduling--booking) | Cal.com, Rallly |
 | [CRM & Sales](#crm--sales) | Twenty |
 | [Project Management](#project-management) | Plane |
 | [Communication](#communication) | Chatwoot, Fluxer, ntfy |
-| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel, changedetection.io, Healthchecks |
+| [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel, changedetection.io, Healthchecks, Metabase |
 | [Content & CMS](#content--cms) | Payload, Directus |
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM |
-| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage, Semaphore UI, NetBox, BunkerWeb |
+| [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage, Semaphore UI, NetBox, BunkerWeb, MeshCentral |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth, Password Pusher |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart |
@@ -67,6 +67,19 @@ Every project here is:
 - **Self-host:** Docker, Vercel, Railway — full self-hosting supported
 - **Why it's useful:** Replace Calendly/GHL calendars for client booking pages. Already using for Orias bespoke consultations.
 - **Added:** 2026-03-14
+
+### Rallly
+- **Repo:** [lukevella/rallly](https://github.com/lukevella/rallly)
+- **Stars:** 5,298 (checked 2026-10-11)
+- **License:** AGPL-3.0-or-later
+- **What it does:** Create date/time polls so participants can vote on availability and agree on a meeting time.
+- **Self-host:** Docker image; official self-hosting guide. [Documentation](https://support.rallly.co/self-hosting).
+- **Why it's useful:** Complements Cal.com appointment booking with group-availability polls for workshops and multi-party meetings.
+- **Latest commit checked:** 2026-10-10
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-11
+
+
 
 ---
 
@@ -334,6 +347,19 @@ Every project here is:
 - **Latest commit checked:** 2026-09-28
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
 - **Added:** 2026-09-30
+
+
+### Metabase
+- **Repo:** [metabase/metabase](https://github.com/metabase/metabase)
+- **Stars:** 49,606 (checked 2026-10-11)
+- **License:** AGPL Open Source edition; commercial editions use separate commercial terms.
+- **What it does:** Business intelligence with a visual question builder, SQL editor and interactive dashboards.
+- **Self-host:** Docker or Java JAR; official installation documentation. [Documentation](https://www.metabase.com/docs/latest/installation-and-operation/installing-metabase).
+- **Why it's useful:** Adds business reporting over operational databases rather than website-traffic analytics.
+- **Latest commit checked:** 2026-10-10
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-11
+
 
 
 ---
@@ -735,6 +761,19 @@ Every project here is:
 - **Latest commit checked:** 2026-09-21
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
 - **Added:** 2026-10-08
+
+
+### MeshCentral
+- **Repo:** [Ylianst/MeshCentral](https://github.com/Ylianst/MeshCentral)
+- **Stars:** 7,377 (checked 2026-10-11)
+- **License:** Apache-2.0
+- **What it does:** Web-based remote desktop, terminal and file management for computers running its agent.
+- **Self-host:** Run your own management web server and install agents on managed devices. [Documentation](https://ylianst.github.io/MeshCentral/).
+- **Why it's useful:** Adds remote IT support capabilities beyond the inventory tracking already covered by Snipe-IT.
+- **Latest commit checked:** 2026-09-24
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-11
+
 
 
 ---
