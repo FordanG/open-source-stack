@@ -29,16 +29,16 @@ Every project here is:
 | [Project Management](#project-management) | Plane |
 | [Communication](#communication) | Chatwoot, Fluxer, ntfy |
 | [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel, changedetection.io, Healthchecks, Metabase |
-| [Content & CMS](#content--cms) | Payload, Directus |
+| [Content & CMS](#content--cms) | Payload, Directus, Weblate |
 | [E-Commerce](#e-commerce) | Medusa |
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM |
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage, Semaphore UI, NetBox, BunkerWeb, MeshCentral |
-| [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth, Password Pusher |
+| [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth, Password Pusher, Vaultwarden |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
 | [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai |
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces, Appsmith |
-| [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor |
+| [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor, Nextcloud |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Document Management](#document-management) | DocuSeal, Paperless-ngx, Gotenberg |
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep |
@@ -401,6 +401,18 @@ Every project here is:
 - **Self-host:** Docker, Docker Compose, or from source with any SQL database
 - **Why it's useful:** Ideal for agencies working with existing client databases. Can retrofit any legacy database with modern API and admin interface without data migration.
 - **Added:** 2026-03-16
+
+### Weblate
+- **Repo:** [WeblateOrg/weblate](https://github.com/WeblateOrg/weblate)
+- **Stars:** 6,111 (checked 2026-10-12)
+- **License:** GPL-3.0-or-later
+- **What it does:** Web-based localization platform with tight version-control integration.
+- **Self-host:** Self-managed installation; official guide: https://docs.weblate.org/en/latest/admin/install.html.
+- **Why it's useful:** Adds translation management for multilingual client websites and applications, distinct from content management.
+- **Latest commit checked:** 2026-10-11
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-12
+
 
 ---
 
@@ -827,6 +839,18 @@ Every project here is:
 - **Latest commit checked:** 2026-10-02
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
 - **Added:** 2026-10-03
+
+
+### Vaultwarden
+- **Repo:** [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)
+- **Stars:** 68,862 (checked 2026-10-12)
+- **License:** AGPL-3.0
+- **What it does:** Unofficial Bitwarden-compatible server for personal and shared team password vaults.
+- **Self-host:** Docker or Docker Compose; HTTPS required for the web vault.
+- **Why it's useful:** Adds persistent team password management alongside Infisical developer secrets and Password Pusher expiring links.
+- **Latest commit checked:** 2026-10-10
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-12
 
 
 ---
@@ -1278,6 +1302,18 @@ Every project here is:
 - **Self-host:** Docker, Kubernetes, or Elixir application deployment
 - **Why it's useful:** Perfect for agencies managing multiple client databases or SaaS applications. Eliminates connection bottlenecks and provides enterprise-grade connection management without expensive cloud pooling services.
 - **Added:** 2026-03-28
+
+### Nextcloud
+- **Repo:** [nextcloud/server](https://github.com/nextcloud/server)
+- **Stars:** 37,069 (checked 2026-10-12)
+- **License:** AGPL-3.0-or-later
+- **What it does:** Self-hosted file storage, device synchronization and sharing, extensible with collaboration apps.
+- **Self-host:** Install on your own server; official instructions: https://nextcloud.com/install/#instructions-server.
+- **Why it's useful:** Adds a shared client-file workspace beyond object storage, document archiving and peer-to-peer transfers.
+- **Latest commit checked:** 2026-10-11
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-12
+
 
 ---
 
