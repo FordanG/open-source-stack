@@ -38,10 +38,10 @@ Every project here is:
 | [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai |
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces, Appsmith |
-| [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor, Nextcloud |
+| [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor, Nextcloud, Syncthing |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Document Management](#document-management) | DocuSeal, Paperless-ngx, Gotenberg |
-| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep |
+| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep, FreshRSS |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
 | [Design & Media](#design--media) | Postiz, Voicebox, Penpot |
@@ -1315,6 +1315,18 @@ Every project here is:
 - **Added:** 2026-10-12
 
 
+### Syncthing
+- **Repo:** [syncthing/syncthing](https://github.com/syncthing/syncthing)
+- **Stars:** 89,342 (checked 2026-10-13)
+- **License:** MPL-2.0
+- **What it does:** Continuously synchronize files between two or more computers.
+- **Self-host:** Native binaries or Docker; official getting-started and Docker guides.
+- **Why it's useful:** Keep working folders synchronized across workstations without a central cloud drive; complements one-off PairDrop transfers.
+- **Latest commit checked:** 2026-10-12
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-13
+
+
 ---
 
 ## Developer Tools
@@ -1663,6 +1675,18 @@ Every project here is:
 - **Latest commit checked:** 2026-10-04
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
 - **Added:** 2026-10-08
+
+
+### FreshRSS
+- **Repo:** [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS)
+- **Stars:** 16,281 (checked 2026-10-13)
+- **License:** AGPL-3.0
+- **What it does:** Self-hosted RSS feed reading with multi-user support, tags, mobile-client API and basic website scraping.
+- **Self-host:** Docker or PHP with SQLite, PostgreSQL or MySQL/MariaDB.
+- **Why it's useful:** Follow industry and technical sources in one reading queue; complements saved bookmarks rather than duplicating them.
+- **Latest commit checked:** 2026-10-12
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-13
 
 
 ---
