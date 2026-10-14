@@ -27,7 +27,7 @@ Every project here is:
 | [Scheduling & Booking](#scheduling--booking) | Cal.com, Rallly |
 | [CRM & Sales](#crm--sales) | Twenty |
 | [Project Management](#project-management) | Plane |
-| [Communication](#communication) | Chatwoot, Fluxer, ntfy |
+| [Communication](#communication) | Chatwoot, Fluxer, ntfy, Apache Answer |
 | [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel, changedetection.io, Healthchecks, Metabase |
 | [Content & CMS](#content--cms) | Payload, Directus, Weblate |
 | [E-Commerce](#e-commerce) | Medusa |
@@ -44,7 +44,7 @@ Every project here is:
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep, FreshRSS |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
-| [Design & Media](#design--media) | Postiz, Voicebox, Penpot |
+| [Design & Media](#design--media) | Postiz, Voicebox, Penpot, draw.io |
 
 ---
 
@@ -176,6 +176,18 @@ Every project here is:
 - **Latest commit checked:** 2026-08-27
 - **Source:** Repository README and GitHub repository/commit metadata.
 - **Added:** 2026-09-23
+
+
+### Apache Answer
+- **Repo:** [apache/answer](https://github.com/apache/answer)
+- **Stars:** 15,692 (checked 2026-10-15)
+- **License:** Apache-2.0
+- **What it does:** Q&A platform for community forums, help centers and team knowledge sharing.
+- **Self-host:** Docker with a persistent data volume; official README provides a quick-start command.
+- **Why it's useful:** Adds community question-and-answer workflows alongside Chatwoot support conversations and BookStack documentation.
+- **Latest commit checked:** 2026-09-22
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-15
 
 
 ---
@@ -1112,6 +1124,18 @@ Every project here is:
 - **Latest commit checked:** 2026-09-29
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested or visually inspected.
 - **Added:** 2026-09-30
+
+
+### draw.io
+- **Repo:** [jgraph/drawio](https://github.com/jgraph/drawio)
+- **Stars:** 8,763 (checked 2026-10-15)
+- **License:** Apache-2.0 source code; icon sets, stencil libraries and templates have separate terms restricting incorporation into Atlassian products. End-user diagram exports are exempt from that restriction.
+- **What it does:** Configurable browser-based diagramming and whiteboarding application.
+- **Self-host:** Official Docker image, static hosting, or desktop application.
+- **Why it's useful:** Create process and system diagrams for client handovers; complements Penpot interface design. This version does not support real-time collaborative editing.
+- **Latest commit checked:** 2026-10-08
+- **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
+- **Added:** 2026-10-15
 
 
 ---
