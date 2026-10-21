@@ -35,13 +35,13 @@ Every project here is:
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage, Semaphore UI, NetBox, BunkerWeb, MeshCentral |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth, Password Pusher, Vaultwarden |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
-| [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart |
+| [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart, Mautic |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai |
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces, Appsmith |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor, Nextcloud, Syncthing |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Document Management](#document-management) | DocuSeal, Paperless-ngx, Gotenberg |
-| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep, FreshRSS |
+| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep, FreshRSS, LanguageTool |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
 | [Design & Media](#design--media) | Postiz, Voicebox, Penpot, draw.io |
@@ -947,6 +947,18 @@ Every project here is:
 - **Added:** 2026-10-02
 
 
+### Mautic
+- **Repo:** [mautic/mautic](https://github.com/mautic/mautic)
+- **Stars:** 10,822 (checked 2026-10-22)
+- **License:** GPL-3.0-or-later
+- **What it does:** Self-hosted marketing automation with segmentation and multi-channel campaigns.
+- **Self-host:** Production release package or Composer installation.
+- **Why it's useful:** Adds automated marketing campaigns beyond the existing newsletter sender.
+- **Latest commit checked:** 2026-10-21
+- **Source:** Upstream README, license and GitHub metadata; Jev relevance 2.96/3, manually reviewed for usefulness and category overlap. Not runtime-tested or visually inspected (PinchTab unavailable).
+- **Added:** 2026-10-22
+
+
 ---
 
 ## Finance & Invoicing
@@ -1711,6 +1723,18 @@ Every project here is:
 - **Latest commit checked:** 2026-10-12
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
 - **Added:** 2026-10-13
+
+
+### LanguageTool
+- **Repo:** [languagetool-org/languagetool](https://github.com/languagetool-org/languagetool)
+- **Stars:** 15,172 (checked 2026-10-22)
+- **License:** LGPL-2.1-or-later (core)
+- **What it does:** Multilingual proofreading for English, Dutch and more than 20 other languages.
+- **Self-host:** Standalone Java application or your own HTTP server; community Docker images available.
+- **Why it's useful:** Check multilingual website and marketing copy using self-hosted proofreading.
+- **Latest commit checked:** 2026-10-21
+- **Source:** Upstream README, license and GitHub metadata; Jev relevance 2.99/3, manually reviewed for usefulness and category overlap. Not runtime-tested or visually inspected (PinchTab unavailable).
+- **Added:** 2026-10-22
 
 
 ---
