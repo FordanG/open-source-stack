@@ -31,7 +31,7 @@ Every project here is:
 | [Analytics & Monitoring](#analytics--monitoring) | Umami, OpenObserve, Web-Check, Kener, Uptrace, OpenStatus, Beszel, changedetection.io, Healthchecks, Metabase |
 | [Content & CMS](#content--cms) | Payload, Directus, Weblate |
 | [E-Commerce](#e-commerce) | Medusa |
-| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM |
+| [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM, LibreTranslate |
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage, Semaphore UI, NetBox, BunkerWeb, MeshCentral |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth, Password Pusher, Vaultwarden |
 | [Forms & Surveys](#forms--surveys) | Formbricks |
@@ -44,7 +44,7 @@ Every project here is:
 | [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep, FreshRSS, LanguageTool |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
-| [Design & Media](#design--media) | Postiz, Voicebox, Penpot, draw.io |
+| [Design & Media](#design--media) | Postiz, Voicebox, Penpot, draw.io, Webstudio |
 
 ---
 
@@ -652,6 +652,18 @@ Every project here is:
 - **Added:** 2026-09-27
 
 
+### LibreTranslate
+- **Repo:** [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)
+- **Stars:** 17,151 (checked 2026-10-23)
+- **License:** AGPL-3.0
+- **What it does:** Self-hosted machine translation API powered by Argos Translate, without proprietary translation services.
+- **Self-host:** Run the translation API on your own infrastructure; official quickstart: https://docs.libretranslate.com/.
+- **Why it's useful:** Adds machine translation for multilingual content workflows alongside proofreading and localization management.
+- **Latest commit checked:** 2026-10-12
+- **Source:** Upstream README and GitHub metadata; Jev relevance 2.89/3, manually reviewed for usefulness and topic overlap. Not runtime-tested or visually inspected (PinchTab unavailable).
+- **Added:** 2026-10-23
+
+
 ---
 
 ## DevOps & Infrastructure
@@ -1148,6 +1160,18 @@ Every project here is:
 - **Latest commit checked:** 2026-10-08
 - **Source:** Repository README and GitHub repository/commit metadata; not runtime-tested. Rendered-site inspection unavailable because PinchTab was offline.
 - **Added:** 2026-10-15
+
+
+### Webstudio
+- **Repo:** [webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)
+- **Stars:** 9,102 (checked 2026-10-23)
+- **License:** AGPL-3.0-or-later core; optional sdk-components-animation package is proprietary
+- **What it does:** Visual website development platform for developers, designers and cross-functional teams.
+- **Self-host:** Upstream README supports running your own instance; documentation: https://docs.webstudio.is/.
+- **Why it's useful:** Adds visual website authoring alongside existing design tools and CMS applications.
+- **Latest commit checked:** 2026-10-22
+- **Source:** Upstream README and GitHub metadata; Jev relevance 2.87/3, manually reviewed for usefulness and topic overlap. Not runtime-tested or visually inspected (PinchTab unavailable).
+- **Added:** 2026-10-23
 
 
 ---
