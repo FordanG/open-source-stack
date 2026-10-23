@@ -34,14 +34,14 @@ Every project here is:
 | [AI & Machine Learning](#ai--machine-learning) | Dify, Mem0, OpenViking, Onyx, Dexter, Airi, Langfuse, LiteLLM, LibreTranslate |
 | [DevOps & Infrastructure](#devops--infrastructure) | Dokploy, Coolify, OpenCTI, Infisical, restic, Homepage, Semaphore UI, NetBox, BunkerWeb, MeshCentral |
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth, Password Pusher, Vaultwarden |
-| [Forms & Surveys](#forms--surveys) | Formbricks |
+| [Forms & Surveys](#forms--surveys) | Formbricks, Fider |
 | [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart, Mautic |
 | [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai |
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces, Appsmith |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor, Nextcloud, Syncthing |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Document Management](#document-management) | DocuSeal, Paperless-ngx, Gotenberg |
-| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep, FreshRSS, LanguageTool |
+| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep, FreshRSS, LanguageTool, Docmost |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
 | [Design & Media](#design--media) | Postiz, Voicebox, Penpot, draw.io, Webstudio |
@@ -898,6 +898,18 @@ Every project here is:
 - **Self-host:** Docker, Kubernetes, or from source with PostgreSQL
 - **Why it's useful:** Perfect Typeform/Qualtrics replacement for client feedback collection, NPS surveys, and user research. Essential for gathering insights without expensive monthly fees.
 - **Added:** 2026-03-16
+
+### Fider
+- **Repo:** [getfider/fider](https://github.com/getfider/fider)
+- **Stars:** 4,586 (checked 2026-10-24)
+- **License:** AGPL-3.0
+- **What it does:** Customer feedback portal for feature requests and suggestions.
+- **Self-host:** Docker; official self-hosting documentation.
+- **Why it's useful:** Collect product requests separately from Formbricks surveys and Plane issue tracking.
+- **Latest commit checked:** 2026-10-21
+- **Source:** Upstream README, GitHub metadata and self-hosting documentation/configuration; Jev relevance 2.97/3, manually reviewed for usefulness and overlap. Not runtime-tested or visually inspected (PinchTab unavailable).
+- **Added:** 2026-10-24
+
 
 ---
 
@@ -1759,6 +1771,18 @@ Every project here is:
 - **Latest commit checked:** 2026-10-21
 - **Source:** Upstream README, license and GitHub metadata; Jev relevance 2.99/3, manually reviewed for usefulness and category overlap. Not runtime-tested or visually inspected (PinchTab unavailable).
 - **Added:** 2026-10-22
+
+
+### Docmost
+- **Repo:** [docmost/docmost](https://github.com/docmost/docmost)
+- **Stars:** 22,080 (checked 2026-10-24)
+- **License:** AGPL-3.0 core; enterprise directories separately licensed
+- **What it does:** Collaborative wiki with real-time editing, spaces, comments, page history and diagrams.
+- **Self-host:** Upstream Docker Compose with PostgreSQL and Redis.
+- **Why it's useful:** Adds real-time coauthoring for client specifications; overlaps BookStack documentation and AFFiNE workspaces.
+- **Latest commit checked:** 2026-10-23
+- **Source:** Upstream README, GitHub metadata and self-hosting documentation/configuration; Jev relevance 2.95/3, manually reviewed for usefulness and overlap. Not runtime-tested or visually inspected (PinchTab unavailable).
+- **Added:** 2026-10-24
 
 
 ---
