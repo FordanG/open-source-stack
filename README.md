@@ -36,12 +36,12 @@ Every project here is:
 | [Auth & Identity](#auth--identity) | ZITADEL, Stack Auth, Password Pusher, Vaultwarden |
 | [Forms & Surveys](#forms--surveys) | Formbricks, Fider |
 | [Email & Marketing](#email--marketing) | Listmonk, Shlink, Plunk, Stalwart, Mautic |
-| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai |
+| [Finance & Invoicing](#finance--invoicing) | IDURAR, Invoicerr, TaxHacker, ERPNext, OpenBB, Kimai, Actual Budget |
 | [Automation & Workflows](#automation--workflows) | n8n, Windmill, ToolJet, Activepieces, Appsmith |
 | [Database & Storage](#database--storage) | NocoDB, PocketBase, MinIO, Databasus, Supavisor, Nextcloud, Syncthing |
 | [Developer Tools](#developer-tools) | GitNexus, Yaade, Refine, OpenWork, Gogs, Tabby, Chandra, Fastfetch |
 | [Document Management](#document-management) | DocuSeal, Paperless-ngx, Gotenberg |
-| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep, FreshRSS, LanguageTool, Docmost |
+| [Productivity](#productivity) | AFFiNE, Super Productivity, SiYuan, linkding, Memos, BookStack, PairDrop, Karakeep, FreshRSS, LanguageTool, Docmost, Mealie |
 | [Emergency & Preparedness](#emergency--preparedness) | Project N.O.M.A.D |
 | [IT Asset Management](#it-asset-management) | Snipe-IT |
 | [Design & Media](#design--media) | Postiz, Voicebox, Penpot, draw.io, Webstudio |
@@ -1110,6 +1110,18 @@ Every project here is:
 - **Added:** 2026-09-25
 
 
+### Actual Budget
+- **Repo:** [actualbudget/actual](https://github.com/actualbudget/actual)
+- **Stars:** 29,723 (checked 2026-10-25)
+- **License:** MIT
+- **What it does:** Local-first personal finance and envelope budgeting with cross-device synchronization.
+- **Self-host:** Docker or local Windows, macOS and Linux applications.
+- **Why it's useful:** Adds personal budgeting alongside the catalog's business invoicing and market-research tools.
+- **Latest commit checked:** 2026-10-24
+- **Source:** Upstream README and GitHub repository/commit metadata; Jev relevance 2.91/3, manually reviewed for usefulness and topic overlap. Not runtime-tested or visually inspected (PinchTab connection refused).
+- **Added:** 2026-10-25
+
+
 ---
 
 ## Design & Media
@@ -1783,6 +1795,18 @@ Every project here is:
 - **Latest commit checked:** 2026-10-23
 - **Source:** Upstream README, GitHub metadata and self-hosting documentation/configuration; Jev relevance 2.95/3, manually reviewed for usefulness and overlap. Not runtime-tested or visually inspected (PinchTab unavailable).
 - **Added:** 2026-10-24
+
+
+### Mealie
+- **Repo:** [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie)
+- **Stars:** 13,670 (checked 2026-10-25)
+- **License:** AGPL-3.0
+- **What it does:** Recipe management, URL imports, meal planning and shopping lists with a REST API.
+- **Self-host:** Docker; official installation documentation at https://docs.mealie.io/.
+- **Why it's useful:** Adds household meal and shopping planning rather than another general-purpose notes tool.
+- **Latest commit checked:** 2026-10-24
+- **Source:** Upstream README and GitHub repository/commit metadata; Jev relevance 2.92/3, manually reviewed for usefulness and topic overlap. Not runtime-tested or visually inspected (PinchTab connection refused).
+- **Added:** 2026-10-25
 
 
 ---
